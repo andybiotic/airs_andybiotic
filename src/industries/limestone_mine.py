@@ -3,11 +3,11 @@ from industry import IndustryPrimaryExtractive, TileLocationChecks
 industry = IndustryPrimaryExtractive(
     id="limestone_mine",
     prod_cargo_types_with_multipliers=[
-        ("LIME", 20),
+        ("LIME", 16),
     ],
     prob_in_game="4",
-    prob_map_gen="7",
-    map_colour="69",
+    prob_map_gen="5",
+    map_colour="56",
     location_checks=dict(require_cluster=[70, 3]),
     prospect_chance="0.75",
     name="string(STR_IND_LIMESTONE_MINE)",
@@ -15,11 +15,6 @@ industry = IndustryPrimaryExtractive(
     fund_cost_multiplier="232",
     pollution_and_squalor_factor=1,
 )
-
-industry.enable_in_economy(
-    "STEELTOWN",
-)
-
 
 industry.add_tile(
     id="limestone_mine_tile_1",

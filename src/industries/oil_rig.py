@@ -24,10 +24,6 @@ industry = IndustryPrimaryExtractive(
     pollution_and_squalor_factor=1,
 )
 
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-)
-
 industry.add_tile(
     id="oil_rig_tile_1",
     location_checks=TileLocationChecks(

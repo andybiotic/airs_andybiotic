@@ -11,25 +11,17 @@ industry = IndustryPrimaryExtractive(
     prospect_chance="0.75",
     name="string(STR_IND_QUARRY)",
     nearby_station_name="string(STR_IND_QUARRY)",
-    fund_cost_multiplier="210",
+    fund_cost_multiplier="116",
     pollution_and_squalor_factor=1,
 )
 
-
 industry.enable_in_economy(
-    "STEELTOWN",
+    "PLAINS_TRAINS_AND_STEEL",
     prod_cargo_types_with_multipliers=[
-        ("SAND", 14),
-        ("LIME", 14),
+        ("GRVL", 15),
+        ("LIME", 15),
     ],
-)
-
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    prod_cargo_types_with_multipliers=[
-        ("SAND", 14),
-        ("GRVL", 14),
-    ],
+    fund_cost_multiplier="58",
 )
 
 # 2 tiles for this industry: pit outer tile cannot be on slopes; pit inner tiles and processor tiles can be

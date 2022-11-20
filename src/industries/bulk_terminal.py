@@ -6,7 +6,7 @@ industry = IndustryPrimaryPort(
     prod_cargo_types_with_multipliers=[],
     prob_in_game="2",
     prob_map_gen="6",
-    map_colour="177",
+    map_colour="151",
     special_flags=["IND_FLAG_BUILT_ON_WATER"],
     location_checks=dict(same_type_distance=16),
     prospect_chance="0.75",
@@ -17,30 +17,13 @@ industry = IndustryPrimaryPort(
 )
 
 industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    accept_cargo_types=[
-        "MNO2",
-        "PHOS",
-        "BDMT",
-    ],
+    "PLAINS_TRAINS_AND_STEEL",
+    accept_cargo_types=["COAL", "GRAI",],
     prod_cargo_types_with_multipliers=[
-        ("RFPR", 12),
-        ("FMSP", 12),
+        ("AORE", 22),
     ],
-)
-# industry.economy_variations['IN_A_HOT_COUNTRY'].accept_cargo_types = ['MNO2', 'FECR', 'RUBR']
-# industry.economy_variations['IN_A_HOT_COUNTRY'].prod_cargo_types_with_multipliers = [('FORM', 12)]
-
-industry.enable_in_economy(
-    "STEELTOWN",
-    accept_cargo_types=["FOOD", "POTA", "CHLO"],
-    prod_cargo_types_with_multipliers=[
-        ("MNO2", 19),
-        ("RUBR", 16),
-        ("PLAS", 16),
-        ("FECR", 14),
-        ("ALUM", 11),
-    ],
+    intro_year=1895,
+    fund_cost_multiplier="12",
 )
 
 industry.add_tile(

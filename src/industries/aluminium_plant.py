@@ -3,20 +3,29 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(
     id="aluminium_plant",
     accept_cargos_with_input_ratios=[
-        ("ALO_", 8),
+        ("AORE", 8),
     ],
     combined_cargos_boost_prod=True,
     prod_cargo_types_with_output_ratios=[
         ("ALUM", 8),
     ],
     prob_in_game="3",
-    prob_map_gen="5",
+    prob_map_gen="3",
     map_colour="19",
     name="string(STR_IND_ALUMINIUM_PLANT)",
     nearby_station_name="string(STR_STATION_SMELTER)",
     fund_cost_multiplier="200",
     graphics_change_dates=[1942, 1980],
     provides_snow=True,
+)
+
+industry.enable_in_economy(
+    "PLAINS_TRAINS_AND_STEEL",
+    accept_cargos_with_input_ratios=[
+        ("AORE", 10),
+    ],
+    intro_year=1895,
+    fund_cost_multiplier="18",
 )
 
 # industry.enable_in_economy("MILD_MILD_WEST",)

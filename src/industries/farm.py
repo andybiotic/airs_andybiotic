@@ -1,6 +1,6 @@
-from industry import IndustryPrimaryOrganic, TileLocationChecks
+from industry import IndustryPrimaryNoSupplies, TileLocationChecks
 
-industry = IndustryPrimaryOrganic(
+industry = IndustryPrimaryNoSupplies(
     id="farm",
     prod_cargo_types_with_multipliers=[],
     prob_in_game="3",
@@ -15,28 +15,15 @@ industry = IndustryPrimaryOrganic(
     name="string(STR_IND_FARM)",
     extra_text_fund="string(STR_FUND_FARM)",
     nearby_station_name="string(STR_STATION_BARNS)",
-    fund_cost_multiplier="49",
+    fund_cost_multiplier="1",
 )
 
 # definitely not in Arctic Basic, farm has been added and removed more than once from that economy :P
+# Eyecandy only in Plains, Trains and Steel. Doesn't accept anything. Doesn't produce anything.
 
 industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    prod_cargo_types_with_multipliers=[
-        ("MAIZ", 14),
-        ("LVST", 13),
-    ],
-    prob_map_gen="14",
-)
-
-# ['IN_A_HOT_COUNTRY'].prod_cargo_types_with_multipliers = [('MAIZ', 14), ('LVST', 13), ('NUTS', 14), ('WOOL', 10),]
-
-industry.enable_in_economy(
-    "STEELTOWN",
-    prod_cargo_types_with_multipliers=[
-        ("FOOD", 14),
-    ],
-    prob_map_gen="15",  # intended to be relatively prevalent in Steeltown, split this per economy if needed
+    "PLAINS_TRAINS_AND_STEEL",
+    prod_cargo_types_with_multipliers=[],
 )
 
 industry.add_tile(

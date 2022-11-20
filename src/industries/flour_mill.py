@@ -10,26 +10,20 @@ industry = IndustrySecondary(
     ],
     prob_map_gen="10",
     prob_in_game="10",
-    map_colour="49",
-    location_checks=dict(flour_mill_layouts_by_date=True),
+    map_colour="64",
     name="string(STR_IND_FLOUR_MILL)",
     nearby_station_name="string(STR_STATION_MILL)",
     fund_cost_multiplier="50",
     provides_snow=True,
 )
 
-industry.enable_in_economy("BASIC_TROPIC")
-industry.economy_variations["BASIC_TROPIC"].accept_cargos_with_input_ratios = [
-    ("GRAI", 6)
-]
-
 
 industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    accept_cargos_with_input_ratios=[
-        ("CASS", 6),
-        ("MAIZ", 6),
+    "PLAINS_TRAINS_AND_STEEL",
+    prod_cargo_types_with_output_ratios=[
+        ("FOOD", 6),
     ],
+    fund_cost_multiplier="16",
 )
 
 industry.add_tile(
@@ -208,32 +202,5 @@ industry.add_industry_layout(
         (1, 1, "flour_mill_spritelayout_brickbakery_2"),
         (1, 2, "flour_mill_spritelayout_brickbakery_1"),
         (1, 3, "flour_mill_spritelayout_brickbakery_2"),
-    ],
-)
-industry.add_industry_layout(
-    id="flour_mill_industry_layout_4",
-    layout=[
-        (0, 0, "flour_mill_spritelayout_windmill_shed"),
-        (0, 1, "flour_mill_spritelayout_windmill_granary"),
-        (1, 0, "flour_mill_spritelayout_windmill_anim"),
-        (1, 1, "flour_mill_spritelayout_windmill_greeble"),
-    ],
-)
-industry.add_industry_layout(
-    id="flour_mill_industry_layout_5",
-    layout=[
-        (0, 0, "flour_mill_spritelayout_windmill_shed"),
-        (0, 1, "flour_mill_spritelayout_windmill_anim"),
-        (1, 0, "flour_mill_spritelayout_windmill_granary"),
-        (1, 1, "flour_mill_spritelayout_windmill_greeble"),
-    ],
-)
-industry.add_industry_layout(
-    id="flour_mill_industry_layout_6",
-    layout=[
-        (0, 0, "flour_mill_spritelayout_windmill_granary"),
-        (0, 1, "flour_mill_spritelayout_windmill_greeble"),
-        (1, 0, "flour_mill_spritelayout_windmill_anim"),
-        (1, 1, "flour_mill_spritelayout_windmill_shed"),
     ],
 )

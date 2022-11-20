@@ -16,16 +16,6 @@ industry = IndustryPrimaryPort(
     override_default_construction_states=True,
 )
 
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    accept_cargo_types=["EOIL", "OIL_"],
-    prod_cargo_types_with_multipliers=[
-        ("RFPR", 11),
-        ("PETR", 7),
-    ],
-)
-# industry.economy_variations['IN_A_HOT_COUNTRY'].prod_cargo_types_with_multipliers = [('NH3_', 16)]
-
 industry.add_tile(
     id="liquids_terminal_tile_1",
     land_shape_flags="bitmask(LSF_ONLY_ON_FLAT_LAND)",

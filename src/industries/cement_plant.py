@@ -7,7 +7,7 @@ industry = IndustrySecondary(
     prod_cargo_types_with_output_ratios=[],
     prob_in_game="3",
     prob_map_gen="5",
-    map_colour="19",
+    map_colour="38",
     # the keystones are quite specific to IAHC, and location checks aren't economy specific, so this might need adjusted if other economies gain cement plant
     location_checks=dict(
         near_at_least_one_of_these_keystone_industries=[
@@ -24,14 +24,15 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
+    "PLAINS_TRAINS_AND_STEEL",
     accept_cargos_with_input_ratios=[
-        ("PETR", 2),
-        ("CLAY", 2),
+        ("SLAG", 2),
         ("GRVL", 4),
     ],
-    prod_cargo_types_with_output_ratios=[("BDMT", 8)],
-)
+    prod_cargo_types_with_output_ratios=[("CMNT", 8)],
+    intro_year=1965,
+    fund_cost_multiplier="24",
+),
 
 # ['IN_A_HOT_COUNTRY'].accept_cargos_with_input_ratios = [('COAL', 2), ('CLAY', 2), ('GRVL', 4)]
 # ['IN_A_HOT_COUNTRY'].prod_cargo_types_with_output_ratios = [('CMNT', 8)]

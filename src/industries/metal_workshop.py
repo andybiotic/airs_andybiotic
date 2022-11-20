@@ -12,7 +12,7 @@ industry = IndustrySecondary(
     ],
     prob_in_game="3",
     prob_map_gen="5",
-    map_colour="166",
+    map_colour="142",
     name="string(STR_IND_METAL_WORKSHOP)",
     nearby_station_name="string(STR_STATION_STAMP_AND_PLATE)",
     fund_cost_multiplier="120",
@@ -21,8 +21,16 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
-    "BASIC_TEMPERATE",
+    "PLAINS_TRAINS_AND_STEEL",
+    accept_cargos_with_input_ratios=[
+        ("STEL", 6),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("STSE", 6),
+    ],
+    fund_cost_multiplier="21",
 )
+
 
 industry.add_tile(
     id="metal_workshop_tile_1",

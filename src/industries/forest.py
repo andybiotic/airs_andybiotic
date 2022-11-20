@@ -21,11 +21,8 @@ industry = IndustryPrimaryOrganic(
 )
 
 industry.enable_in_economy(
-    "BASIC_ARCTIC",
-    prod_cargo_types_with_multipliers=[("WOOD", 24)],
-)
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
+    "PLAINS_TRAINS_AND_STEEL",
+    fund_cost_multiplier="30",
 )
 
 industry.add_tile(

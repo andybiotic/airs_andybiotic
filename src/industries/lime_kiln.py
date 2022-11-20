@@ -13,7 +13,7 @@ industry = IndustrySecondary(
     map_colour="119",
     location_checks=dict(
         near_at_least_one_of_these_keystone_industries=[
-            ["quarry", "limestone_mine"],
+            ["quarry"],
             72,
         ],
         same_type_distance=72,
@@ -27,11 +27,15 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
-    "STEELTOWN",
+    "PLAINS_TRAINS_AND_STEEL",
     accept_cargos_with_input_ratios=[
-        ("LIME", 8)
-    ],  # no fuel source, at least in Steeltown, it's better for gameplay - assume natural gas fuel
-    prob_in_game="1",  # low probability of build during gameplay
+        ("LIME", 1)
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("QLME", 1),
+    ],
+    intro_year=1895,
+    fund_cost_multiplier="11",
 )
 
 industry.add_tile(

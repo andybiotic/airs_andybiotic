@@ -15,16 +15,6 @@ industry = IndustryTownProducerPopulationDependent(
     provides_snow=True,
 )
 
-
-industry.enable_in_economy(
-    "BASIC_TEMPERATE",
-)
-
-industry.enable_in_economy(
-    "STEELTOWN",
-    prob_map_gen="14",
-)
-
 industry.add_tile(
     id="scrap_yard_tile_1",
     location_checks=TileLocationChecks(

@@ -15,13 +15,9 @@ industry = IndustryPrimaryExtractive(
     fund_cost_multiplier="232",
 )
 
-
 industry.enable_in_economy(
-    "BASIC_TEMPERATE",
-)
-industry.enable_in_economy(
-    "STEELTOWN",
-    prob_map_gen="10",
+    "PLAINS_TRAINS_AND_STEEL",
+    fund_cost_multiplier="45",
 )
 
 industry.add_tile(

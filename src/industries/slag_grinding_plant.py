@@ -6,8 +6,8 @@ industry = IndustrySecondary(
         ("SLAG", 8),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("CMNT", 5),
-        ("FMSP", 3),
+        ("GRVL", 6),
+        ("FMSP", 2),
     ],
     prob_in_game="3",
     prob_map_gen="5",
@@ -15,7 +15,7 @@ industry = IndustrySecondary(
     special_flags=["IND_FLAG_MILITARY_AIRPLANE_CAN_EXPLODE"],
     location_checks=dict(
         near_at_least_one_of_these_keystone_industries=[
-            ["blast_furnace", "basic_oxygen_furnace", "electric_arc_furnace"],
+            ["blast_furnace", "basic_oxygen_furnace"],
             56,
         ],
         same_type_distance=72,
@@ -27,8 +27,12 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
-    "STEELTOWN",
-    prob_in_game="0",  # do not build during gameplay
+    "PLAINS_TRAINS_AND_STEEL",
+    prod_cargo_types_with_output_ratios=[
+        ("GRVL", 6),
+        ("BDMT", 2),
+    ],
+    fund_cost_multiplier="11",
 )
 
 industry.add_tile(

@@ -9,7 +9,7 @@ industry = IndustryTertiary(
     prob_in_game="12",
     prob_map_gen="18",
     prod_multiplier="[0, 0]",
-    map_colour="169",
+    map_colour="121",
     life_type="IND_LIFE_TYPE_BLACK_HOLE",
     prospect_chance="0.75",  # yeah delete this, it's not required for tertiary
     name="string(STR_IND_BUILDERS_YARD)",
@@ -18,24 +18,13 @@ industry = IndustryTertiary(
     provides_snow=True,
 )
 
-
 industry.enable_in_economy(
-    "STEELTOWN",
-    prob_in_game="6",
-    prob_map_gen="9",
+    "PLAINS_TRAINS_AND_STEEL",
     accept_cargo_types=[
         "CMNT",
-        "PIPE",
-        "STSE",
-        "STWR",
-        "SAND",
-        "LIME",
-        "GLAS",
+        "BDMT",
     ],
-)
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    prob_map_gen="14",
+    fund_cost_multiplier="4",
 )
 
 industry.add_tile(

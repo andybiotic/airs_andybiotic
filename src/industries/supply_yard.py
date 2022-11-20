@@ -13,18 +13,19 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    accept_cargos_with_input_ratios=[
-        ("BDMT", 8),
-        ("PETR", 8),
-        ("GOOD", 8),
-    ],
+    "PLAINS_TRAINS_AND_STEEL",
     prod_cargo_types_with_output_ratios=[
-        ("ENSP", 4),
-        ("FMSP", 4),
+        ("FMSP", 2),
+        ("ENSP", 2),
     ],
+    accept_cargos_with_input_ratios=[
+        ("RFPR", 2),
+        ("PETR", 2),
+        ("FERT", 2),
+    ],
+    intro_year=1930,
+    fund_cost_multiplier="9",
 )
-# industry.economy_variations['IN_A_HOT_COUNTRY'].accept_cargos_with_input_ratios = [('CMNT', 8), ('PETR', 8), ('VEHI', 8), ('BOOM', 8), ('WDPR', 8)]
 
 industry.add_tile(
     id="supply_yard_tile_1",

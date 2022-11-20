@@ -8,36 +8,22 @@ industry = IndustrySecondary(
     ],
     prob_in_game="3",
     prob_map_gen="5",
-    map_colour="181",
-    location_checks=dict(
-        near_at_least_one_of_these_keystone_industries=[
-            ["arable_farm", "fruit_plantation", "coffee_estate", "vineyard"],
-            72,
-        ]
-    ),
+    map_colour="190",
     name="TTD_STR_INDUSTRY_NAME_FOOD_PROCESSING_PLANT",
     nearby_station_name="string(STR_STATION_FOOD_CORPORATION)",
     fund_cost_multiplier="65",
 )
 
 industry.enable_in_economy(
-    "BASIC_TROPIC",
-    accept_cargos_with_input_ratios=[
-        ("BEAN", 6),
-        ("FRUT", 6),
-    ],
-)
-
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    accept_cargos_with_input_ratios=[
-        ("NUTS", 6),
-        ("FRUT", 6),
+    "PLAINS_TRAINS_AND_STEEL",
+        accept_cargos_with_input_ratios=[
+        ("GRAI", 6),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("EOIL", 4),
-        ("FOOD", 4),
+        ("FOOD", 6),
     ],
+    intro_year=1930,
+    fund_cost_multiplier="8",
 )
 
 industry.add_tile(

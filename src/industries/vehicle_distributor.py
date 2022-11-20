@@ -7,7 +7,7 @@ industry = IndustryTertiary(
     ],
     prod_cargo_types_with_multipliers=[],
     prob_in_game="3",
-    prob_map_gen="10",
+    prob_map_gen="8",
     map_colour="207",
     life_type="IND_LIFE_TYPE_BLACK_HOLE",
     location_checks=dict(
@@ -21,7 +21,9 @@ industry = IndustryTertiary(
 )
 
 industry.enable_in_economy(
-    "STEELTOWN",
+    "PLAINS_TRAINS_AND_STEEL",
+    fund_cost_multiplier="7",
+    intro_year=1895,
 )
 
 industry.add_tile(

@@ -7,7 +7,7 @@ industry = IndustrySecondary(
     prod_cargo_types_with_output_ratios=[("ENSP", 8)],
     prob_in_game="3",
     prob_map_gen="5",
-    map_colour="43",
+    map_colour="33",
     name="string(STR_IND_TIMBER_YARD)",
     nearby_station_name="string(STR_STATION_CREOSOTING)",
     fund_cost_multiplier="35",
@@ -17,12 +17,13 @@ industry = IndustrySecondary(
 
 
 industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
+    "PLAINS_TRAINS_AND_STEEL",
     prod_cargo_types_with_output_ratios=[("BDMT", 8)],
     accept_cargos_with_input_ratios=[
         ("WDPR", 6),
         ("RFPR", 2),
     ],
+    fund_cost_multiplier="18",
 )
 
 # non-animated tile, allowed on slopes

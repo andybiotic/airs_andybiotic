@@ -1,7 +1,7 @@
 ##grflangid 0x01
 ##plural 0
 
-STR_GRF_DESC                                                                    :{ORANGE}FIRS Industry Replacement Set{}{BLACK}Brought to you by andythenorth, FooBar, planetmaker, Terkhen and Yexo, with help from many others. {SILVER}See readme for more information, including how to use FIRS. {BLACK}License: GPL v2.
+STR_GRF_DESC                                                                    :{ORANGE}Age of Industry Replacement Set (AIRS). {}{BLACK}Brought to you by andythenorth, FooBar, planetmaker, Terkhen and Yexo, with help from many others. Modded by Andysine. {SILVER}See readme for more information, including how to use FIRS. {BLACK}License: GPL v2.
 
 STR_PARAM_DESC_COAST_DISTANCE_MARINE_INDUSTRY                                   :Maximum distance of fishing grounds, oil rigs and dredging sites from the coast in tiles.
 STR_PARAM_DESC_ECONOMIES                                                        :Each economy provides a different combination of cargos and industries.{}{}For players who want simple gameplay, {SILVER}Basic {BLACK}economies contain fewer industries and cargos than other FIRS economies.{}{}The FIRS website provides detailed information about each economy.
@@ -13,7 +13,7 @@ STR_PARAM_VALUE_SECONDARY_NEVER_CLOSE_0                                         
 
 STR_PARAM_NAME_PRIMARY_LEVEL1_REQUIREMENT                                       :Supply crates required for Enhanced primary production (default 16)
 STR_PARAM_NAME_PRIMARY_LEVEL2_REQUIREMENT                                       :Supply crates required for Gung-ho primary production (default 80)
-STR_PARAM_DESC_PRIMARY_LEVEL_REQUIREMENT                                        :Farms, mines and similar industries will increase production when supply crates are delivered, first to {SILVER}Enhanced{BLACK}, and then to {SILVER}Gung-ho{BLACK}, if enough crates are delivered.  {}{}The default values are good, but if you need to, you can change them here.  {}{}Cargo requirements for port-type industries will be 8x the values set here.
+STR_PARAM_DESC_PRIMARY_LEVEL_REQUIREMENT                                        :Farms, mines and similar industries will increase production when supply crates are delivered, first to {SILVER}Enhanced{BLACK}, and then to {SILVER}Gung-ho{BLACK}, if enough crates are delivered.  {}{}The default values are good, but if you need to, you can change them here.  {}{}Cargo requirements for the Grain Elevator will be 2x the values set here and port-type industries will be 8x.
 STR_PARAM_NAME_PRIMARY_LEVEL1_BONUS                                             :Enhanced primary production level (%)
 STR_PARAM_NAME_PRIMARY_LEVEL2_BONUS                                             :Gung-ho primary production level (%)
 STR_PARAM_DESC_PRIMARY_LEVEL_BONUS                                              :Production at farms, mines and similar industries when supply requirements are met (as percentage of {SILVER}Normal {BLACK}production level).
@@ -26,6 +26,8 @@ STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC                                          
 STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC                                          :Tropic Basic
 STR_PARAM_VALUE_ECONOMIES_IN_A_HOT_COUNTRY                                      :In A Hot Country
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :Steeltown
+STR_PARAM_VALUE_ECONOMIES_ANDYSINE_TEMPERATE                                  :Andysine Advanced
+STR_PARAM_VALUE_ECONOMIES_PLAINS_TRAINS_AND_STEEL                               :Plains, Trains and Steel
 
 STR_PARAM_NAME_OBJECTS                                                          :FIRS landscaping objects
 STR_PARAM_DESC_OBJECTS                                                          :FIRS includes a set of landscaping objects, which players can place to make certain industries appear larger. Landscape object have no gameplay effect. Landscaping objects can be turned on or off.
@@ -40,6 +42,9 @@ STR_PRIMARY_PRODUCTION_4X                                                       
 STR_PORT_PRODUCTION_1X                                                          :{BLACK}Current production: {YELLOW}Normal {}{}{BLACK}For {WHITE}Enhanced {BLACK}production deliver {SIGNED_WORD} units of cargo at least once every three months.{}For {WHITE}Gung-ho {BLACK}production deliver {SIGNED_WORD} units.
 STR_PORT_PRODUCTION_2X                                                          :{BLACK}Current production: {YELLOW}Enhanced {}{}{BLACK}To keep this level, deliver {SIGNED_WORD} units of cargo at least once every three months.{}For {WHITE}Gung-ho {BLACK}production deliver {SIGNED_WORD} units.
 STR_PORT_PRODUCTION_4X                                                          :{BLACK}Current production: {YELLOW}Gung-ho {}{}{BLACK}To keep this level, deliver {SKIP}{SIGNED_WORD} units of cargo at least once every three months.
+STR_GRAIN_ELEVATOR_PRODUCTION_1X                                                :{BLACK}Current production: {YELLOW}Normal {}{}{BLACK}For {WHITE}Enhanced {BLACK}production deliver {SIGNED_WORD} units of cargo at least once every three months.{}For {WHITE}Gung-ho {BLACK}production deliver {SIGNED_WORD} units.
+STR_GRAIN_ELEVATOR_PRODUCTION_2X                                                :{BLACK}Current production: {YELLOW}Enhanced {}{}{BLACK}To keep this level, deliver {SIGNED_WORD} units of cargo at least once every three months.{}For {WHITE}Gung-ho {BLACK}production deliver {SIGNED_WORD} units.
+STR_GRAIN_ELEVATOR_PRODUCTION_4X                                                :{BLACK}Current production: {YELLOW}Gung-ho {}{}{BLACK}To keep this level, deliver {SKIP}{SIGNED_WORD} units of cargo at least once every three months.
 
 STR_INFORMATIVE_EXTRA_TEXT_PLAZA                                                :{SKIP}{SKIP}Population mood:{} {STRING}{STRING}{}{}{BLACK}Optimism score: {STRING}{SIGNED_WORD} point{P 2 "" s}{}{BLACK} Needs and luxuries met: {YELLOW}{SIGNED_WORD} point{P 3 "" s} {}{BLACK} Pollution and squalor: {YELLOW}{SIGNED_WORD} point{P 4 "" s} {}{}{BLACK}Pollution and squalor increases with population and certain industry types.{}{}Needs and luxuries are met by delivering to certain industry types.{}{}If optimism score is more than 10, population mood will be {WHITE}optimistic{BLACK}. If optimism score is less than -10, population mood will be {WHITE}gloomy{BLACK}.
 STR_INFORMATIVE_EXTRA_TEXT_PLAZA_MOOD_OPTIMISTIC                                :Optimistic
@@ -126,7 +131,7 @@ STR_CARGO_NAME_SLAG                                                             
 STR_CARGO_NAME_SODA_ASH                                                         :Soda Ash
 STR_CARGO_NAME_STAINLESS_STEEL                                                  :Stainless Steel
 STR_CARGO_NAME_STEEL                                                            :Steel
-STR_CARGO_NAME_STEEL_SECTIONS                                                   :Steel Sections
+STR_CARGO_NAME_STEEL_SECTIONS                                                   :Steel Parts
 STR_CARGO_NAME_STEEL_SHEET                                                      :Steel Sheet
 STR_CARGO_NAME_STEEL_WIRE_ROD                                                   :Steel Wire Rod
 STR_CARGO_NAME_STONE                                                            :Stone
@@ -226,7 +231,7 @@ STR_CARGO_UNIT_SLAG                                                             
 STR_CARGO_UNIT_SODA_ASH                                                         :{WEIGHT} of soda ash
 STR_CARGO_UNIT_STAINLESS_STEEL                                                  :{WEIGHT} of stainless steel
 STR_CARGO_UNIT_STEEL                                                            :{WEIGHT} of steel
-STR_CARGO_UNIT_STEEL_SECTIONS                                                   :{WEIGHT} of steel sections
+STR_CARGO_UNIT_STEEL_SECTIONS                                                   :{WEIGHT} of steel parts
 STR_CARGO_UNIT_STEEL_SHEET                                                      :{WEIGHT} of steel sheet
 STR_CARGO_UNIT_STEEL_WIRE_ROD                                                   :{WEIGHT} of steel wire rod
 STR_CARGO_UNIT_STONE                                                            :{WEIGHT} of stone
@@ -367,7 +372,7 @@ STR_IND_ALUMINIUM_PLANT                                                         
 STR_IND_AMMONIA_PLANT                                                           :Ammonia Plant
 STR_IND_ARABLE_FARM                                                             :Arable Farm
 STR_IND_ASSEMBLY_PLANT                                                          :Assembly Plant
-STR_IND_BASIC_OXYGEN_FURNACE                                                    :Basic Oxygen Furnace
+STR_IND_BASIC_OXYGEN_FURNACE                                                    :Bessemer Converter
 STR_IND_BIOREFINERY                                                             :Biorefinery
 STR_IND_BLAST_FURNACE                                                           :Blast Furnace
 STR_IND_BODY_PLANT                                                              :Body Plant
@@ -387,19 +392,19 @@ STR_IND_COFFEE_ESTATE                                                           
 STR_IND_COKE_OVEN                                                               :Coke Oven
 STR_IND_COMPONENT_FACTORY                                                       :Component Factory
 STR_IND_COPPER_CONCENTRATOR                                                     :Copper Concentrator
-STR_IND_COPPER_SMELTER                                                         :Copper Smelter
+STR_IND_COPPER_SMELTER                                                          :Copper Smelter
 STR_IND_CRYO_PLANT                                                              :Cryo Plant
 STR_IND_DAIRY                                                                   :Dairy
 STR_IND_DAIRY_FARM                                                              :Dairy Farm
 STR_IND_DREDGING_SITE                                                           :Dredging Site
-STR_IND_ELECTRIC_ARC_FURNACE                                                    :Electric Arc Furnace
+STR_IND_ELECTRIC_ARC_FURNACE                                                    :Advanced Steel Mill
 STR_IND_ENGINE_PLANT                                                            :Engine Plant
 STR_IND_ETHYLENE_CRACKER                                                        :Naphtha Cracker
 STR_IND_FARM                                                                    :Farm
 STR_IND_FERROCHROME_SMELTER                                                     :Ferrochrome Smelter
 STR_IND_FERTILISER_PLANT                                                        :Fertiliser Plant
-STR_IND_FACTORY_1                                                               :Factory 1
-STR_IND_FACTORY_2                                                               :Factory 2
+STR_IND_FACTORY_1                                                               :Basic Factory
+STR_IND_FACTORY_2                                                               :Modern Factory
 STR_IND_FACTORY_3                                                               :Factory 3
 STR_IND_FISCHER_TROPSCH_PLANT                                                   :Fischer-Tropsch Plant
 STR_IND_FISH_FARM                                                               :Fish Farm
@@ -409,14 +414,18 @@ STR_IND_FISHING_VILLAGE                                                         
 STR_IND_FLOUR_MILL                                                              :Flour Mill
 STR_IND_FOOD_MARKET                                                             :Grocer's Shop
 STR_IND_FOOD_PROCESSOR                                                          :Food Processing Plant
+STR_IND_FUEL_DEPOT                                                              :Fuel Depot
 STR_IND_FURNITURE_FACTORY                                                       :Furniture Factory
 STR_IND_GENERAL_STORE                                                           :General Store
 STR_IND_GLASS_WORKS                                                             :Glass Works
+STR_IND_GRAIN_ELEVATOR                                                          :Grain Elevator
 STR_IND_HARDWARE_STORE                                                          :Hardware Store
 STR_IND_HOTEL                                                                   :Hotel
 STR_IND_HERDING_COOP                                                            :Herding Co-op
+STR_IND_INLAND_CONTAINER_TERMINAL                                               :Inland Container Terminal
+STR_IND_INLAND_GRAIN_TERMINAL                                                   :Inland Grain Terminal
 STR_IND_IRON_WORKS                                                              :Iron Works
-STR_IND_SCRAP_YARD                                                                :Scrap Yard
+STR_IND_SCRAP_YARD                                                              :Scrap Yard
 STR_IND_LATEX_PROCESSOR                                                         :Latex Processor
 STR_IND_LIME_KILN                                                               :Lime Kiln
 STR_IND_LIMESTONE_MINE                                                          :Limestone Mine
@@ -433,11 +442,11 @@ STR_IND_PEATLANDS                                                               
 STR_IND_PETROLPUMP                                                              :Petrol Station
 STR_IND_PHOSPHATE_MINE                                                          :Phosphate Mine
 STR_IND_PHOSPHORIC_ACID_PLANT                                                   :Phosphoric Acid Plant
-STR_IND_PLASTICS_PLANT                                                          :PVC Plant
+STR_IND_PLASTICS_PLANT                                                          :Plastics Plant
 STR_IND_PLAZA                                                                   :Plaza
 STR_IND_POLYETHYLENE_PLANT                                                      :Polyethylene Plant
 STR_IND_POLYPROPYLENE_PLANT                                                     :Polypropylene Plant
-STR_IND_PORT                                                                    :Port
+STR_IND_PORT                                                                    :Container Port
 STR_IND_POTASH_MINE                                                             :Potash Mine
 STR_IND_PYRITE_MINE                                                             :Pyrite Mine
 STR_IND_PYRITE_SMELTER                                                          :Pyrite Smelter
@@ -472,12 +481,14 @@ STR_IND_WIRE_AND_SECTION_MILL                                                   
 STR_FUND_ARABLE_FARM                                                            :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 STR_FUND_COFFEE_ESTATE                                                          :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 STR_FUND_DAIRY_FARM                                                             :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
+STR_FUND_ELEVATOR                                                               :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 STR_FUND_FARM                                                                   :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 STR_FUND_FOREST                                                                 :{}{BLACK}Location: {YELLOW}Cannot be funded in deserts.
 STR_FUND_FRUIT_PLANTATION                                                       :{}{BLACK}Location: {YELLOW}Cannot be funded on snow.
 STR_FUND_HERDING_COOP                                                           :{}{BLACK}Location: {YELLOW}Can only be funded on snow.
 STR_FUND_ORCHARD_PIGGERY                                                        :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 STR_FUND_RUBBER_PLANTATION                                                      :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
+STR_FUND_TERMINAL                                                               :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 STR_FUND_VINEYARD                                                               :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 
 STR_FUND_AVAILABLE_FROM                                                         :{}{BLACK}Available from: {YELLOW}{COMMA}
@@ -505,13 +516,16 @@ STR_STATION_DAIRY_LANE                                                          
 STR_STATION_DYNAMO                                                              :Dynamo
 STR_STATION_ESTATE                                                              :Estate
 STR_STATION_EXCHANGE                                                            :Exchange
+STR_STATION_ELEVATOR                                                            :Elevator
 STR_STATION_FARM_1                                                              :Manor
 STR_STATION_FARM_2                                                              :Meadows
 STR_STATION_FARM_3                                                              :Ranch
+STR_STATION_FACTORY_1                                                           :Works
 STR_STATION_FISHMARKET                                                          :Fish Market
 STR_STATION_FISH_PENS                                                           :Fish Pens
 STR_STATION_FOOD_CORPORATION                                                    :Food Corporation
 STR_STATION_FOREST                                                              :Log Landing
+STR_STATION_FUEL_DEPOT                                                          :Depot
 STR_STATION_FORGE                                                               :Forge
 STR_STATION_FURNACE                                                             :Furnace
 STR_STATION_HEAVY_EQUIPMENT_YARD                                                :Heavy Equipment Yard
@@ -522,6 +536,7 @@ STR_STATION_INDUSTRY_HARBOUR_1                                                  
 STR_STATION_INDUSTRY_HARBOUR_2                                                  :Waterside
 STR_STATION_INDUSTRY_HARBOUR_3                                                  :Landing Stage
 STR_STATION_INDUSTRY_HARBOUR_4                                                  :Shorefront
+STR_STATION_INLAND_CONTAINER_TERMINAL                                           :Terminal
 STR_STATION_IRONSTONE                                                           :Ironstone
 STR_STATION_JOINERS_SHOP                                                        :Joiner's Shop
 STR_STATION_KILNS                                                               :Kilns
@@ -560,6 +575,7 @@ STR_STATION_STAMP_AND_PLATE                                                     
 STR_STATION_SUGAR_COMPANY                                                       :Sugar Company
 STR_STATION_TANK_FARM                                                           :Tank Farm
 STR_STATION_TAPPERS_SHED                                                        :Tappers Shed
+STR_STATION_TERMINAL                                                            :Grain Terminal
 STR_STATION_TOWN_1                                                              :Old Town Hall
 STR_STATION_TOWN_2                                                              :High Road
 STR_STATION_TOWN_3                                                              :Stores

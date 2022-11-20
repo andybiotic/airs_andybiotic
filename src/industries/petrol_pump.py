@@ -21,11 +21,6 @@ industry = IndustryTertiary(
     provides_snow=True,
 )
 
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-)
-
-
 industry.add_tile(
     id="petrol_pump_tile_1",
     location_checks=TileLocationChecks(

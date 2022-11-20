@@ -18,35 +18,15 @@ industry = IndustryTertiary(
     prospect_chance="0.75",
     name="string(STR_IND_GENERAL_STORE)",
     nearby_station_name="string(STR_STATION_TOWN_3)",
-    fund_cost_multiplier="15",
+    fund_cost_multiplier="4",
     provides_snow=True,
 )
 
 industry.enable_in_economy(
-    "BASIC_TEMPERATE",
-)
-
-industry.enable_in_economy(
-    "BASIC_ARCTIC",
+    "PLAINS_TRAINS_AND_STEEL",
     accept_cargo_types=[
         "FOOD",
-    ],
-)
-
-industry.enable_in_economy(
-    "BASIC_TROPIC",
-)
-
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-    prob_map_gen="14",
-)
-# industry.economy_variations['IN_A_HOT_COUNTRY'].accept_cargo_types = ['FOOD', 'GOOD', 'BEER', 'TEXT']
-
-industry.enable_in_economy(
-    "STEELTOWN",
-    accept_cargo_types=[
-        "FOOD",
+        "GOOD",
     ],
 )
 

@@ -7,7 +7,7 @@ industry = IndustryPrimaryExtractive(
     ],
     prob_in_game="6",
     prob_map_gen="8",
-    map_colour="151",
+    map_colour="72",
     prospect_chance="0.75",
     name="TTD_STR_INDUSTRY_NAME_OIL_WELLS",
     fund_cost_multiplier="230",
@@ -17,10 +17,8 @@ industry = IndustryPrimaryExtractive(
 )
 
 industry.enable_in_economy(
-    "BASIC_TROPIC",
-)
-industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
+    "PLAINS_TRAINS_AND_STEEL",
+    fund_cost_multiplier="65",
 )
 
 industry.add_tile(

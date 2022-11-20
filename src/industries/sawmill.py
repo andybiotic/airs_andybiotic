@@ -22,10 +22,8 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
-    "IN_A_HOT_COUNTRY",
-)
-industry.enable_in_economy(
-    "BASIC_ARCTIC",
+    "PLAINS_TRAINS_AND_STEEL",
+    fund_cost_multiplier="21",
 )
 
 industry.add_tile(

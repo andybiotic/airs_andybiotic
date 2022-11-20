@@ -16,7 +16,7 @@ industry = IndustrySecondary(
     ],
     prob_in_game="1",  # low chance of build during gameplay
     prob_map_gen="5",
-    map_colour="186",
+    map_colour="10",
     name="string(STR_IND_ELECTRIC_ARC_FURNACE)",
     nearby_station_name="string(STR_STATION_FURNACE)",
     fund_cost_multiplier="160",
@@ -24,7 +24,16 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
-    "STEELTOWN",
+    "PLAINS_TRAINS_AND_STEEL",
+    accept_cargos_with_input_ratios=[
+        ("IRON", 3),
+        ("QLME", 1),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("STCB", 3),
+    ],
+    fund_cost_multiplier="16",
+    intro_year="1895",
 )
 
 industry.add_tile(

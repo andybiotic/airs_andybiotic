@@ -4,7 +4,7 @@ industry = IndustrySecondary(
     id="fertiliser_plant",
     accept_cargos_with_input_ratios=[
         ("NH3_", 3),
-        ("PHAC", 3),
+        ("PHOS", 3),
         ("POTA", 2),
     ],
     prod_cargo_types_with_output_ratios=[
@@ -13,10 +13,24 @@ industry = IndustrySecondary(
     prob_in_game="3",
     prob_map_gen="5",
     prod_multiplier="[0, 0]",
-    map_colour="191",
+    map_colour="164",
     name="string(STR_IND_FERTILISER_PLANT)",
     nearby_station_name="string(STR_STATION_BRINE_WORKS)",
     fund_cost_multiplier="170",
+)
+
+industry.enable_in_economy(
+    "PLAINS_TRAINS_AND_STEEL",
+    accept_cargos_with_input_ratios=[
+        ("NH3_", 3),
+        ("PHOS", 3),
+        ("POTA", 2),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("FERT", 8),
+    ],
+    fund_cost_multiplier="13",
+    intro_year="1895",
 )
 
 industry.add_tile(
