@@ -18,8 +18,8 @@ industry = IndustryPrimaryExtractive(
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
     prod_cargo_types_with_multipliers=[
-        ("GRVL", 15),
-        ("LIME", 15),
+        ("GRVL", 16),
+        ("LIME", 16),
     ],
     fund_cost_multiplier="58",
 )

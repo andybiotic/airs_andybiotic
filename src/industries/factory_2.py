@@ -34,13 +34,12 @@ industry.add_tile(
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
     accept_cargos_with_input_ratios=[
-        ("ALUM", 2),
-        ("STCB", 4),
+        ("ALUM", 4),
+        ("STSE", 6),
         ("RFPR", 2),
-
     ],
     prod_cargo_types_with_output_ratios=[
-        ("GOOD", 5),
+        ("GOOD", 8),
     ],
     fund_cost_multiplier="11",
     intro_year="1965",

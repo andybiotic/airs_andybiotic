@@ -20,19 +20,6 @@ industry = IndustrySecondary(
     provides_snow=True,
 )
 
-industry.enable_in_economy(
-    "PLAINS_TRAINS_AND_STEEL",
-    accept_cargos_with_input_ratios=[
-        ("RFPR", 6),
-    ],
-    prod_cargo_types_with_output_ratios=[
-        ("PLAS", 4),
-    ],
-    intro_year=1965,
-    fund_cost_multiplier="22",
-)
-
-
 industry.add_tile(
     id="plastics_plant_tile_1",
     location_checks=TileLocationChecks(

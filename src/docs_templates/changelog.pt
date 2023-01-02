@@ -30,3 +30,14 @@ Increased Bessemer Converter output
 
 Increased Blast Furnace output
 Added Coke to Advanced Steel Mill inputs
+
+
+--------------
+1.1.0 Release
+--------------
+
+Simplified Steel flow.
+Removed Carbon Steel cargo and Advanced Steel Mill.
+Removed Vehicle Parts cargo and Component Factory.
+Added Potash to Bulk Terminal accepted cargo.
+Adjusted various cargo production outputs.

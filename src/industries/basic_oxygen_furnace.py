@@ -23,7 +23,7 @@ industry = IndustrySecondary(
         same_type_distance=72,
     ),
     name="string(STR_IND_BASIC_OXYGEN_FURNACE)",
-    nearby_station_name="string(STR_STATION_FURNACE)",
+    nearby_station_name="string(STR_STATION_STEEL_MILL)",
     fund_cost_multiplier="160",
     pollution_and_squalor_factor=2,
 )
@@ -31,11 +31,12 @@ industry = IndustrySecondary(
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
     accept_cargos_with_input_ratios=[
-        ("IRON", 3),
-        ("COKE", 2),
+        ("IRON", 8),
+        ("COKE", 3),
+        ("QLME", 2)
     ],
     prod_cargo_types_with_output_ratios=[
-        ("STEL", 3),
+        ("STEL", 7),
         ("SLAG", 2),
     ],
     fund_cost_multiplier="25",

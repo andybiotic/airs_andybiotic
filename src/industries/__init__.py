@@ -102,11 +102,11 @@ from industries import coke_oven
 
 coke_oven.industry.register()
 
+"""
 from industries import component_factory
 
 component_factory.industry.register()
 
-"""
 from industries import copper_mine
 
 copper_mine.industry.register()
@@ -139,11 +139,9 @@ from industries import dredging_site
 
 dredging_site.industry.register()
 
-"""
 from industries import electric_arc_furnace
 
 electric_arc_furnace.industry.register()
-"""
 
 from industries import engine_plant
 

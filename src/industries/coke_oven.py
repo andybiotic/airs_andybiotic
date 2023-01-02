@@ -2,7 +2,7 @@ from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(
     id="coke_oven",
-    accept_cargos_with_input_ratios=[("COAL", 8)],
+    accept_cargos_with_input_ratios=[("COAL", 10)],
     prod_cargo_types_with_output_ratios=[],
     prob_in_game="0",  # do not build during gameplay
     prob_map_gen="3",
@@ -15,7 +15,7 @@ industry = IndustrySecondary(
         same_type_distance=72,
     ),
     name="string(STR_IND_COKE_OVEN)",
-    nearby_station_name="string(STR_STATION_BANK_TOP)",
+    nearby_station_name="string(STR_STATION_OVENS)",
     fund_cost_multiplier="120",
     pollution_and_squalor_factor=2,
 )
@@ -23,7 +23,7 @@ industry = IndustrySecondary(
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
     prod_cargo_types_with_output_ratios=[
-        ("COKE", 8),
+        ("COKE", 10),
     ],
     fund_cost_multiplier="18",
 )

@@ -23,6 +23,7 @@ industry.enable_in_economy(
         ("WDPR", 6),
         ("RFPR", 2),
     ],
+    nearby_station_name="string(STR_STATION_TIMBER_YARD)",
     fund_cost_multiplier="18",
 )
 
