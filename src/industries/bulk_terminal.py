@@ -18,7 +18,7 @@ industry = IndustryPrimaryPort(
 
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
-    accept_cargo_types=["COAL", "GRAI",],
+    accept_cargo_types=["COAL", "GRAI", "POTA"],
     prod_cargo_types_with_multipliers=[
         ("AORE", 22),
     ],

@@ -15,3 +15,29 @@ First release of AIRS.
 
 Manually set version number for upload to Bananas.
 
+
+--------------
+1.0.2 Release
+--------------
+
+Fixed disco pixel on Grain Elevator
+Increased Bessemer Converter output
+
+
+--------------
+1.0.3 Release
+--------------
+
+Increased Blast Furnace output
+Added Coke to Advanced Steel Mill inputs
+
+
+--------------
+1.1.0 Release
+--------------
+
+Simplified Steel flow.
+Removed Carbon Steel cargo and Advanced Steel Mill.
+Removed Vehicle Parts cargo and Component Factory.
+Added Potash to Bulk Terminal accepted cargo.
+Adjusted various cargo production outputs.

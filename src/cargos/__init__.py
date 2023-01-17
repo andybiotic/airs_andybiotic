@@ -46,13 +46,11 @@ building_materials.cargo.register()
 from cargos import carbon_black
 
 carbon_black.cargo.register()
-"""
 
 from cargos import carbon_steel
 
 carbon_steel.cargo.register()
 
-"""
 from cargos import cassava
 
 cassava.cargo.register()
@@ -440,11 +438,11 @@ from cargos import vehicle_engines
 
 vehicle_engines.cargo.register()
 
-"""
 from cargos import vehicle_parts
 
 vehicle_parts.cargo.register()
 
+"""
 from cargos import vehicles
 
 vehicles.cargo.register()

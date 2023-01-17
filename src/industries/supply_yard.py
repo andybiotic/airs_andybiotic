@@ -15,13 +15,13 @@ industry = IndustrySecondary(
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
     prod_cargo_types_with_output_ratios=[
-        ("FMSP", 2),
-        ("ENSP", 2),
+        ("FMSP", 4),
+        ("ENSP", 4),
     ],
     accept_cargos_with_input_ratios=[
-        ("RFPR", 2),
-        ("PETR", 2),
-        ("FERT", 2),
+        ("RFPR", 3),
+        ("PETR", 3),
+        ("FERT", 3),
     ],
     intro_year=1930,
     fund_cost_multiplier="9",

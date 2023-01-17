@@ -9,7 +9,7 @@ industry = IndustrySecondary(
         ("OIL_", 8),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("NH3_", 4),
+        ("NH3_", 6),
     ],
     prob_in_game="3",
     prob_map_gen="4",
