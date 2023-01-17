@@ -30,7 +30,7 @@ Oil dominates with the mass production of petroleum fuels and chemicals. New tec
 ### 1965 - Modern Age
 Intermodal Goods are produced at multiple industries and accepted at even more. This dramatic shift revolutionises cargo transit and large-scale Cement production adds a new cargo chain.
 
-<img width="520" alt="AIRS_PTS_Industries" src="https://user-images.githubusercontent.com/49839841/202895580-60d5ff34-d34e-463d-8e5f-bf7d4cb4a744.png">
+<img width="530" alt="AIRS_PTS_Industries" src="https://user-images.githubusercontent.com/49839841/212882465-60b72da2-63ba-4af0-ba51-19c913ec1f5c.png">
 
 
 ## Gameplay tips:
