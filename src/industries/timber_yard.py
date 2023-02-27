@@ -17,6 +17,17 @@ industry = IndustrySecondary(
 
 
 industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    prod_cargo_types_with_output_ratios=[("BDMT", 8)],
+    accept_cargos_with_input_ratios=[
+        ("WDPR", 6),
+        ("RFPR", 2),
+    ],
+    nearby_station_name="string(STR_STATION_TIMBER_YARD)",
+    fund_cost_multiplier="18",
+)
+
+industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
     prod_cargo_types_with_output_ratios=[("BDMT", 8)],
     accept_cargos_with_input_ratios=[

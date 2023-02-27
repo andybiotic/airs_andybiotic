@@ -1,12 +1,15 @@
-from industry import IndustryPrimaryPort, TileLocationChecks
+from industry import IndustryPrimaryNoSupplies, TileLocationChecks
 
-industry = IndustryPrimaryPort(
+industry = IndustryPrimaryNoSupplies(
     id="liquids_terminal",
     accept_cargo_types=[],
-    prod_cargo_types_with_multipliers=[],
+    prod_cargo_types_with_multipliers=[
+        ("PETR", 12),
+        ("RFPR", 8),
+    ],
     prob_in_game="2",
     prob_map_gen="6",
-    map_colour="164",
+    map_colour="151",
     special_flags=["IND_FLAG_BUILT_ON_WATER"],
     location_checks=dict(same_type_distance=16),
     prospect_chance="0.75",
@@ -14,6 +17,12 @@ industry = IndustryPrimaryPort(
     nearby_station_name="string(STR_STATION_TANK_FARM)",
     fund_cost_multiplier="152",
     override_default_construction_states=True,
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    intro_year=1930,
+    fund_cost_multiplier="12",
 )
 
 industry.add_tile(

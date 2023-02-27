@@ -38,6 +38,17 @@ industry.enable_in_economy(
     fund_cost_multiplier="11",
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargos_with_input_ratios=[
+        ("SLAG", 6),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("BDMT", 6),
+    ],
+    fund_cost_multiplier="11",
+)
+
 industry.add_tile(
     id="slag_grinding_plant_tile_1",
     animation_length=7,

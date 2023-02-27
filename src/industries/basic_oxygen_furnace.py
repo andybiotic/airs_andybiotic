@@ -33,13 +33,29 @@ industry.enable_in_economy(
     accept_cargos_with_input_ratios=[
         ("IRON", 8),
         ("COKE", 3),
-        ("QLME", 2)
+        ("QLME", 2),
     ],
     prod_cargo_types_with_output_ratios=[
         ("STEL", 7),
         ("SLAG", 2),
     ],
     fund_cost_multiplier="25",
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargos_with_input_ratios=[
+        ("IRON", 8),
+        ("COKE", 3),
+        ("QLME", 2),
+        ("SCMT", 2)
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("STEL", 7),
+        ("SLAG", 2),
+    ],
+    fund_cost_multiplier="25",
+    intro_year=1895,
 )
 
 industry.add_tile(

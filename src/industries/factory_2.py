@@ -15,7 +15,7 @@ industry = IndustrySecondary(
     ],
     prob_in_game="7",
     prob_map_gen="8",
-    map_colour="173",
+    map_colour="170",
     name="string(STR_IND_FACTORY_2)",
     nearby_station_name="string(STR_STATION_INDUSTRY_ESTATE_1)",
     fund_cost_multiplier="95",
@@ -37,6 +37,19 @@ industry.enable_in_economy(
         ("ALUM", 4),
         ("STSE", 6),
         ("RFPR", 2),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("GOOD", 8),
+    ],
+    fund_cost_multiplier="11",
+    intro_year="1965",
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargos_with_input_ratios=[
+        ("STSE", 8),
+        ("RFPR", 3),
     ],
     prod_cargo_types_with_output_ratios=[
         ("GOOD", 8),

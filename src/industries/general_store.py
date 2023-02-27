@@ -8,8 +8,8 @@ industry = IndustryTertiary(
         "BEER",
     ],
     prod_cargo_types=[],
-    prob_in_game="12",
-    prob_map_gen="24",
+    prob_in_game="8",
+    prob_map_gen="12",
     prod_multiplier="[0, 0]",
     map_colour="168",
     life_type="IND_LIFE_TYPE_BLACK_HOLE",
@@ -24,6 +24,14 @@ industry = IndustryTertiary(
 
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
+    accept_cargo_types=[
+        "FOOD",
+        "GOOD",
+    ],
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
     accept_cargo_types=[
         "FOOD",
         "GOOD",

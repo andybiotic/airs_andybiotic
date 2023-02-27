@@ -12,7 +12,7 @@ industry = IndustrySecondary(
     prob_map_gen="5",
     map_colour="194",
     location_checks=dict(
-        near_at_least_one_of_these_keystone_industries=[["forest"], 72],
+        near_at_least_one_of_these_keystone_industries=[["forest", "forest_basic"], 72],
         same_type_distance=72,
     ),
     name="TTD_STR_INDUSTRY_NAME_SAWMILL",
@@ -24,6 +24,11 @@ industry = IndustrySecondary(
 industry.enable_in_economy(
     "PLAINS_TRAINS_AND_STEEL",
     fund_cost_multiplier="21",
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    fund_cost_multiplier="18",
 )
 
 industry.add_tile(
