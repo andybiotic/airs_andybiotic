@@ -27,6 +27,14 @@ industry.enable_in_economy(
     fund_cost_multiplier="4",
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargo_types=[
+        "BDMT",
+    ],
+    fund_cost_multiplier="4",
+)
+
 industry.add_tile(
     id="builders_yard_tile_1",
     location_checks=TileLocationChecks(

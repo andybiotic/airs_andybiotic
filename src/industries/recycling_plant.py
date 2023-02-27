@@ -6,8 +6,7 @@ industry = IndustrySecondary(
         ("RCYC", 6),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("SCMT", 4),
-        ("MNSP", 4),
+        ("SCMT", 8),
     ],
     prob_in_game="7",
     prob_map_gen="7",
@@ -19,6 +18,11 @@ industry = IndustrySecondary(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    fund_cost_multiplier="20",
+    intro_year=2000,
+)
 
 industry.add_tile(
     id="recycling_plant_tile_1",

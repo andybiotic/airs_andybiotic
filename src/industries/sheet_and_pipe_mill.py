@@ -3,23 +3,28 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(
     id="sheet_and_pipe_mill",
     accept_cargos_with_input_ratios=[
-        ("STCB", 4),
-        ("ZINC", 2),
-        ("ACID", 2),
+        ("STEL", 6),
+        ("RFPR", 4)
     ],
     combined_cargos_boost_prod=True,
     prod_cargo_types_with_output_ratios=[
-        ("STSH", 4),
-        ("PIPE", 3),
-        ("ENSP", 1),
-    ],
+        ("STSE", 8),
+        ("GOOD", 6)
+    ], 
     prob_in_game="0",  # do not build during gameplay
     prob_map_gen="5",
-    map_colour="160",
+    map_colour="127",
     name="string(STR_IND_SHEET_AND_PIPE_MILL)",
     nearby_station_name="string(STR_STATION_PIPE_MILL)",
     fund_cost_multiplier="120",
     pollution_and_squalor_factor=1,
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    fund_cost_multiplier="12",
+    intro_year=1930,
+
 )
 
 industry.add_tile(
@@ -208,76 +213,76 @@ industry.add_spritelayout(
 
 # this industry needs outpost layout as there are lots of cargos
 # note there are two outposts, as this industry has sprites oriented sw_ne or se_nw, will select outpost to match main layout orientation
-industry.add_industry_outpost_layout(
-    id="sheet_and_pipe_mill_industry_outpost_layout_sw_ne",
-    layout=[
-        (
-            0,
-            0,
-            "sheet_and_pipe_mill_spritelayout_shed_sw_ne_1",
-        ),
-        (
-            0,
-            1,
-            "sheet_and_pipe_mill_spritelayout_boilerhouse",
-        ),
-        (
-            1,
-            1,
-            "sheet_and_pipe_mill_spritelayout_pipe_stack_sw_ne",
-        ),
-        (
-            1,
-            0,
-            "sheet_and_pipe_mill_spritelayout_shed_sw_ne_2",
-        ),
-        (
-            2,
-            0,
-            "sheet_and_pipe_mill_spritelayout_open_shed_pipes",
-        ),
-        (
-            2,
-            1,
-            "sheet_and_pipe_mill_spritelayout_tanks",
-        ),
-    ],
-)
-industry.add_industry_outpost_layout(
-    id="sheet_and_pipe_mill_industry_outpost_layout_se_nw",
-    layout=[
-        (
-            0,
-            0,
-            "sheet_and_pipe_mill_spritelayout_shed_se_nw_1",
-        ),
-        (
-            0,
-            1,
-            "sheet_and_pipe_mill_spritelayout_shed_se_nw_2",
-        ),
-        (
-            0,
-            2,
-            "sheet_and_pipe_mill_spritelayout_open_shed_pipes",
-        ),
-        (
-            1,
-            0,
-            "sheet_and_pipe_mill_spritelayout_boilerhouse",
-        ),
-        (
-            1,
-            1,
-            "sheet_and_pipe_mill_spritelayout_pipe_stack_se_nw",
-        ),
-        (
-            1,
-            2,
-            "sheet_and_pipe_mill_spritelayout_tanks",
-        ),
-    ],
-)
+# industry.add_industry_outpost_layout(
+#     id="sheet_and_pipe_mill_industry_outpost_layout_sw_ne",
+#     layout=[
+#         (
+#             0,
+#             0,
+#             "sheet_and_pipe_mill_spritelayout_shed_sw_ne_1",
+#         ),
+#         (
+#             0,
+#             1,
+#             "sheet_and_pipe_mill_spritelayout_boilerhouse",
+#         ),
+#         (
+#             1,
+#             1,
+#             "sheet_and_pipe_mill_spritelayout_pipe_stack_sw_ne",
+#         ),
+#         (
+#             1,
+#             0,
+#             "sheet_and_pipe_mill_spritelayout_shed_sw_ne_2",
+#         ),
+#         (
+#             2,
+#             0,
+#             "sheet_and_pipe_mill_spritelayout_open_shed_pipes",
+#         ),
+#         (
+#             2,
+#             1,
+#             "sheet_and_pipe_mill_spritelayout_tanks",
+#         ),
+#     ],
+# )
+# industry.add_industry_outpost_layout(
+#     id="sheet_and_pipe_mill_industry_outpost_layout_se_nw",
+#     layout=[
+#         (
+#             0,
+#             0,
+#             "sheet_and_pipe_mill_spritelayout_shed_se_nw_1",
+#         ),
+#         (
+#             0,
+#             1,
+#             "sheet_and_pipe_mill_spritelayout_shed_se_nw_2",
+#         ),
+#         (
+#             0,
+#             2,
+#             "sheet_and_pipe_mill_spritelayout_open_shed_pipes",
+#         ),
+#         (
+#             1,
+#             0,
+#             "sheet_and_pipe_mill_spritelayout_boilerhouse",
+#         ),
+#         (
+#             1,
+#             1,
+#             "sheet_and_pipe_mill_spritelayout_pipe_stack_se_nw",
+#         ),
+#         (
+#             1,
+#             2,
+#             "sheet_and_pipe_mill_spritelayout_tanks",
+#         ),
+#     ],
+# )
 # core layouts are roughly 6x4 or 5x5
 # long products mill uses non-standard layouts where some sprites only used for some orientiations (sw_ne or se_nw)
 # this is to achieve the appearance of 'long'

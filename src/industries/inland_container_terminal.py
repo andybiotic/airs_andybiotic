@@ -22,6 +22,16 @@ industry.enable_in_economy(
     accept_cargo_types=["GOOD"],    
     fund_cost_multiplier="18",
     intro_year=1965,
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    prod_cargo_types_with_multipliers=[
+        ("GOOD", 14)
+    ],
+    accept_cargo_types=["GOOD"],    
+    fund_cost_multiplier="18",
+    intro_year=1965,
     
 )
 

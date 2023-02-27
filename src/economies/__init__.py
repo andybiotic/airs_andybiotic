@@ -5,5 +5,7 @@ registered_economies = []
 # !! ^ that doesn't appear to work, action 14 param doesn't seem to be able to abstract name value from name orde??
 
 from economies import plains_trains_and_steel
+from economies import black_gold_and_fire
 
 plains_trains_and_steel.economy.register()
+black_gold_and_fire.economy.register()

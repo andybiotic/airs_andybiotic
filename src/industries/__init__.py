@@ -39,10 +39,12 @@ from industries import body_plant
 
 body_plant.industry.register()
 
+"""
 from industries import brewery
 
 brewery.industry.register()
 
+"""
 from industries import brick_works
 
 brick_works.industry.register()
@@ -61,6 +63,10 @@ from industries import carbon_black_plant
 
 carbon_black_plant.industry.register()
 """
+
+from industries import coal_stage
+
+coal_stage.industry.register()
 
 from industries import cement_plant
 
@@ -205,6 +211,10 @@ from industries import forest
 
 forest.industry.register()
 
+from industries import forest_basic
+
+forest_basic.industry.register()
+
 """
 from industries import fruit_plantation
 
@@ -224,6 +234,10 @@ from industries import glass_works
 
 glass_works.industry.register()
 """
+
+from industries import goods_yard
+
+goods_yard.industry.register()
 
 from industries import grain_elevator
 
@@ -261,10 +275,9 @@ from industries import iron_ore_mine
 
 iron_ore_mine.industry.register()
 
-"""
 from industries import iron_works
+
 iron_works.industry.register()
-"""
 
 """
 from industries import latex_processor
@@ -275,7 +288,6 @@ from industries import lime_kiln
 
 lime_kiln.industry.register()
 
-"""
 from industries import limestone_mine
 
 limestone_mine.industry.register()
@@ -285,8 +297,10 @@ from industries import liquids_terminal
 liquids_terminal.industry.register()
 
 from industries import machine_shop
+
 machine_shop.industry.register()
 
+"""
 from industries import machine_works
 machine_works.industry.register()
 
@@ -317,7 +331,13 @@ oil_wells.industry.register()
 from industries import oil_rig
 
 oil_rig.industry.register()
+"""
 
+from industries import ore_dock
+
+ore_dock.industry.register()
+
+"""
 from industries import orchard_piggery
 
 orchard_piggery.industry.register()
@@ -380,11 +400,13 @@ from industries import ranch
 
 ranch.industry.register()
 
+"""
 from industries import recycling_depot
 recycling_depot.industry.register()
 
 from industries import recycling_plant
 recycling_plant.industry.register()
+"""
 
 from industries import rubber_plantation
 
@@ -403,11 +425,11 @@ scrap_yard.industry.register()
 from industries import sheep_farm
 
 sheep_farm.industry.register()
+"""
 
 from industries import sheet_and_pipe_mill
 
 sheet_and_pipe_mill.industry.register()
-"""
 
 from industries import slag_grinding_plant
 
@@ -457,6 +479,7 @@ vehicle_distributor.industry.register()
 from industries import vineyard
 
 vineyard.industry.register()
+"""
 
 from industries import wharf
 
@@ -465,4 +488,4 @@ wharf.industry.register()
 from industries import wire_and_section_mill
 
 wire_and_section_mill.industry.register()
-"""
+

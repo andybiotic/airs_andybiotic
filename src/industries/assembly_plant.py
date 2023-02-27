@@ -37,6 +37,20 @@ industry.enable_in_economy(
     fund_cost_multiplier="13",
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargos_with_input_ratios=[
+        ("STEL", 4),
+        ("GOOD", 2),
+        ("STSE", 2),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("VEHI", 6),
+    ],
+    intro_year=1895,
+    fund_cost_multiplier="14",
+)
+
 industry.add_tile(
     id="assembly_plant_tile_1",
     animation_length=71,
