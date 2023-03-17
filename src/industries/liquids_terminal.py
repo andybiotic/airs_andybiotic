@@ -1,6 +1,6 @@
-from industry import IndustryPrimaryNoSupplies, TileLocationChecks
+from industry import IndustryPrimaryPort, TileLocationChecks
 
-industry = IndustryPrimaryNoSupplies(
+industry = IndustryPrimaryPort(
     id="liquids_terminal",
     accept_cargo_types=[],
     prod_cargo_types_with_multipliers=[
