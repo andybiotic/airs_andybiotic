@@ -16,18 +16,6 @@ industry = IndustryPrimaryPort(
     override_default_construction_states=True,
 )
 
-industry.enable_in_economy(
-    "BLACK_GOLD_AND_FIRE",
-    prod_cargo_types_with_multipliers=[
-        ("GOOD", 8),
-        ("RFPR", 8),
-        ("PETR", 8),
-    ],
-    accept_cargo_types=["GOOD",],
-    intro_year=1930,
-    fund_cost_multiplier="15",
-)
-
 industry.add_tile(
     id="wharf_tile_1",
     land_shape_flags="bitmask(LSF_ONLY_ON_FLAT_LAND)",
