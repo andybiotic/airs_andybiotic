@@ -22,6 +22,12 @@ industry.enable_in_economy(
     fund_cost_multiplier="16",
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargo_types=["COAL"],
+    fund_cost_multiplier="14",
+)
+
 industry.add_tile(
     id="power_plant_tile_1",
     animation_length=7,

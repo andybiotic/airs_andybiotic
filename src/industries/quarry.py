@@ -24,6 +24,14 @@ industry.enable_in_economy(
     fund_cost_multiplier="58",
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    prod_cargo_types_with_multipliers=[
+        ("LIME", 20),
+    ],
+    fund_cost_multiplier="55",
+)
+
 # 2 tiles for this industry: pit outer tile cannot be on slopes; pit inner tiles and processor tiles can be
 # cases for both tiles ensure that tiles can only be built at same height as north tile
 industry.add_tile(

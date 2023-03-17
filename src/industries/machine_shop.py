@@ -21,6 +21,20 @@ industry = IndustrySecondary(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargos_with_input_ratios=[
+        ("STEL", 8),
+        ("COKE", 8),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("ENSP", 8),
+    ],
+    prob_in_game="3",
+    prob_map_gen="4",
+    fund_cost_multiplier="12",
+    intro_year=1895,
+)
 
 industry.add_tile(
     id="machine_shop_tile_1",

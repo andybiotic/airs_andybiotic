@@ -20,6 +20,14 @@ industry.enable_in_economy(
     fund_cost_multiplier="45",
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    fund_cost_multiplier="45",
+    prod_cargo_types_with_multipliers=[
+    ("IORE", 14),
+    ],
+)
+
 industry.add_tile(
     id="iron_ore_mine_tile_1",
     animation_length=81,

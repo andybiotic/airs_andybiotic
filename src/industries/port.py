@@ -6,7 +6,7 @@ industry = IndustryPrimaryPort(
     prod_cargo_types_with_multipliers=[],
     prob_in_game="2",
     prob_map_gen="8",
-    map_colour="47",
+    map_colour="141",
     special_flags=["IND_FLAG_BUILT_ON_WATER"],
     location_checks=dict(same_type_distance=16),
     prospect_chance="0.75",
@@ -24,7 +24,16 @@ industry.enable_in_economy(
     accept_cargo_types=["GOOD",],
     intro_year=1965,
     fund_cost_multiplier="15",
-    
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    prod_cargo_types_with_multipliers=[
+        ("GOOD", 18)
+    ],
+    accept_cargo_types=["GOOD"],
+    intro_year=1965,
+    fund_cost_multiplier="15",
 )
 
 industry.add_tile(

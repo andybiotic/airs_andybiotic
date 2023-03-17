@@ -26,8 +26,9 @@ STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC                                          
 STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC                                          :Tropic Basic
 STR_PARAM_VALUE_ECONOMIES_IN_A_HOT_COUNTRY                                      :In A Hot Country
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :Steeltown
-STR_PARAM_VALUE_ECONOMIES_ANDYSINE_TEMPERATE                                  :Andysine Advanced
+STR_PARAM_VALUE_ECONOMIES_ANDYSINE_TEMPERATE                                    :Andysine Advanced
 STR_PARAM_VALUE_ECONOMIES_PLAINS_TRAINS_AND_STEEL                               :Plains, Trains and Steel
+STR_PARAM_VALUE_ECONOMIES_BLACK_GOLD_AND_FIRE                                   :Black Gold and Fire  
 
 STR_PARAM_NAME_OBJECTS                                                          :FIRS landscaping objects
 STR_PARAM_DESC_OBJECTS                                                          :FIRS includes a set of landscaping objects, which players can place to make certain industries appear larger. Landscape object have no gameplay effect. Landscaping objects can be turned on or off.
@@ -388,6 +389,7 @@ STR_IND_CHLOR_ALKALI_PLANT                                                      
 STR_IND_CHROMITE_MINE                                                           :Chromite Mine
 STR_IND_CIVIL_EXPLOSIVES_FACILITY                                               :Civil Explosives Facility
 STR_IND_CLAY_PIT                                                                :Clay Pit
+STR_IND_COAL_STAGE                                                              :Coal Stage
 STR_IND_COFFEE_ESTATE                                                           :Coffee Estate
 STR_IND_COKE_OVEN                                                               :Coke Oven
 STR_IND_COMPONENT_FACTORY                                                       :Component Factory
@@ -418,6 +420,7 @@ STR_IND_FUEL_DEPOT                                                              
 STR_IND_FURNITURE_FACTORY                                                       :Furniture Factory
 STR_IND_GENERAL_STORE                                                           :General Store
 STR_IND_GLASS_WORKS                                                             :Glass Works
+STR_IND_GOODS_YARD                                                              :Goods Yard
 STR_IND_GRAIN_ELEVATOR                                                          :Grain Elevator
 STR_IND_HARDWARE_STORE                                                          :Hardware Store
 STR_IND_HOTEL                                                                   :Hotel
@@ -438,6 +441,7 @@ STR_IND_METAL_WORKSHOP                                                          
 STR_IND_MIXEDFARM                                                               :Mixed Farm
 STR_IND_NITRATE_MINE                                                            :Nitrate Mine
 STR_IND_ORCHARD_PIGGERY                                                         :Orchard and Piggery
+STR_IND_ORE_DOCK                                                                :Ore Landing
 STR_IND_PEATLANDS                                                               :Peatlands
 STR_IND_PETROLPUMP                                                              :Petrol Station
 STR_IND_PHOSPHATE_MINE                                                          :Phosphate Mine
@@ -528,6 +532,7 @@ STR_STATION_FOREST                                                              
 STR_STATION_FUEL_DEPOT                                                          :Depot
 STR_STATION_FORGE                                                               :Forge
 STR_STATION_FURNACE                                                             :Furnace
+STR_STATION_GOODS_YARD                                                          :Yard
 STR_STATION_HEAVY_EQUIPMENT_YARD                                                :Heavy Equipment Yard
 STR_STATION_HEAVY_INDUSTRY_2                                                    :Works
 STR_STATION_HERDING_COOP                                                        :Lodge

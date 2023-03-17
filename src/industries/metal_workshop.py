@@ -12,7 +12,7 @@ industry = IndustrySecondary(
     ],
     prob_in_game="3",
     prob_map_gen="5",
-    map_colour="142",
+    map_colour="214",
     name="string(STR_IND_METAL_WORKSHOP)",
     nearby_station_name="string(STR_STATION_STAMP_AND_PLATE)",
     fund_cost_multiplier="120",
@@ -29,6 +29,19 @@ industry.enable_in_economy(
         ("STSE", 7),
     ],
     fund_cost_multiplier="21",
+)
+
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    accept_cargos_with_input_ratios=[
+        ("IRON", 6),
+        ("COKE", 4),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("GOOD", 7),
+    ],
+    fund_cost_multiplier="18",
 )
 
 

@@ -342,10 +342,8 @@ from cargos import raw_latex
 raw_latex.cargo.register()
 """
 
-"""
 from cargos import recyclables
 recyclables.cargo.register()
-"""
 
 """
 from cargos import rubber
@@ -359,11 +357,10 @@ sand.cargo.register()
 from cargos import salt
 
 salt.cargo.register()
-
+"""
 from cargos import scrap_metal
 
 scrap_metal.cargo.register()
-"""
 
 from cargos import slag
 
@@ -393,10 +390,10 @@ from cargos import steel_sheet
 
 steel_sheet.cargo.register()
 
+"""
 from cargos import steel_wire_rod
 
 steel_wire_rod.cargo.register()
-"""
 
 from cargos import stone
 

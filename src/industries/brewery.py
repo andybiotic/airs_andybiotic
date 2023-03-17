@@ -1,24 +1,28 @@
-from industry import IndustrySecondary, TileLocationChecks
+from industry import IndustryPrimaryNoSupplies, TileLocationChecks
 
-industry = IndustrySecondary(
+industry = IndustryPrimaryNoSupplies(
     id="brewery",
-    accept_cargos_with_input_ratios=[
-        ("FRUT", 4),
-        ("MAIZ", 4),
+    accept_cargos_with_input_ratios=[],
+    prod_cargo_types_with_multipliers=[
+        ("FOOD", 8),
     ],
-    combined_cargos_boost_prod=True,
-    prod_cargo_types_with_output_ratios=[
-        ("BEER", 8),
-    ],
-    prob_in_game="3",
-    prob_map_gen="5",
+    prob_in_game="2",
+    prob_map_gen="4",
     map_colour="191",
     # no industry location checks for brewery, by design
     name="string(STR_IND_BREWERY)",
     nearby_station_name="string(STR_STATION_BARREL_AND_KEG)",
-    fund_cost_multiplier="50",
+    fund_cost_multiplier="18",
     pollution_and_squalor_factor=1,
-    provides_snow=True,
+)
+
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    prob_map_gen="12",
+    fund_cost_multiplier="18",
+    prod_cargo_types_with_multipliers=[
+        ("FOOD", 8),
+    ],
 )
 
 industry.add_tile(

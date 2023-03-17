@@ -26,6 +26,12 @@ industry.enable_in_economy(
     intro_year=1895,
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    fund_cost_multiplier="7",
+    intro_year=1895,
+)
+
 industry.add_tile(
     id="vehicle_distributor_tile_1",
     location_checks=TileLocationChecks(

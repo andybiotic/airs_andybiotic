@@ -5,14 +5,11 @@ industry = IndustryTownProducerPopulationDependent(
     prod_cargo_types_with_multipliers=[
         ("RCYC", 16),
     ],  # prod dependent on town popn
-    prob_in_game="20",
-    prob_map_gen="20",
-    map_colour="191",
+    prob_in_game="8",
+    prob_map_gen="8",
+    map_colour="15",
     life_type="IND_LIFE_TYPE_EXTRACTIVE",
-    location_checks=dict(
-        same_type_distance=16,
-        require_town_industry_count=["recycling_depot", 0, 0],
-    ),
+     special_flags=["IND_FLAG_ONLY_IN_TOWNS"],
     name="string(STR_IND_RECYCLING_DEPOT)",
     nearby_station_name="string(STR_STATION_TOWN_2)",
     fund_cost_multiplier="118",
@@ -20,6 +17,11 @@ industry = IndustryTownProducerPopulationDependent(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    fund_cost_multiplier="16",
+    intro_year=2000,
+)
 
 industry.add_tile(
     id="recycling_depot_tile_1",
@@ -52,11 +54,17 @@ industry.add_spritelayout(
     fences=["nw", "ne", "se", "sw"],
 )
 industry.add_industry_layout(
-    id="recycling_depot_industry_layout",
+    id="recycling_depot_industry_layout_1",
+    layout=[
+        (0, 1, "recycling_depot_tile_1", "recycling_depot_spritelayout_hut"),
+        (0, 0, "recycling_depot_tile_1", "recycling_depot_spritelayout_no_hut"),
+    ],
+)
+
+industry.add_industry_layout(
+    id="recycling_depot_industry_layout_2",
     layout=[
         (0, 0, "recycling_depot_tile_1", "recycling_depot_spritelayout_hut"),
         (0, 1, "recycling_depot_tile_1", "recycling_depot_spritelayout_no_hut"),
-        (1, 0, "recycling_depot_tile_1", "recycling_depot_spritelayout_no_hut"),
-        (1, 1, "recycling_depot_tile_1", "recycling_depot_spritelayout_no_hut"),
     ],
 )

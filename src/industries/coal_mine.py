@@ -21,6 +21,14 @@ industry.enable_in_economy(
     fund_cost_multiplier="40",
 )
 
+industry.enable_in_economy(
+    "BLACK_GOLD_AND_FIRE",
+    prob_map_gen="16",
+    fund_cost_multiplier="40",
+    prod_cargo_types_with_multipliers=[("COAL", 12)],
+
+)
+
 # industry.economy_variations['IN_A_HOT_COUNTRY'].enabled = True
 
 industry.add_tile(
