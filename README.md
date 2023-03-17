@@ -30,16 +30,31 @@ Oil dominates with the mass production of petroleum fuels and chemicals. New tec
 ### 1965 - Modern Age
 Intermodal Goods are produced at multiple industries and accepted at even more. This dramatic shift revolutionises cargo transit and large-scale Cement production adds a new cargo chain.
 
-<img width="530" alt="AIRS_PTS_Industries" src="https://user-images.githubusercontent.com/49839841/212882465-60b72da2-63ba-4af0-ba51-19c913ec1f5c.png">
+![title_image_bgf](https://user-images.githubusercontent.com/49839841/226009916-211fa3ce-9f82-4029-97e5-7b1f6e29aa53.png)
 
+An economy based on the coal-rich valleys of South Wales. 
+
+### 1860 - Industrial Age
+Pig iron can be produced from coal and ore in a simple metal chain. Food is collected at Goods Yards in small market towns. The appetite for coal overseas is growing, with export from the many coastal Coal Stages.
+
+### 1895 - Golden Age 
+To satisfy the increasing demand from new, more complex Steel Mills, Iron Ore can now be imported at the Ore Landing. Advanced metal working is undertaken at the Machine Shop, Wire and Section Mill and Sheet and Pipe Mill. Vehicles are produced at the Assembly Plant.
+
+### 1930 - Boom Age
+Petroleum fuels can now be imported and the engineering supply feedback loop means ever greater quantities of coal can be extracted.
+
+### 1965 - Modern Age
+Container Terminals mean intermodal goods can now be transported more quickly and in ever greater quantities.
+
+### 2000 - Consumer Age
+Recyclables can now be transported from urban centres to specialised plants.
+
+<img width="444" alt="AIRS_industries" src="https://user-images.githubusercontent.com/49839841/226025812-67fd8efc-7774-4e14-9097-913af0c71fd7.png">
 
 ## Gameplay tips:
 - All primary industries should be present at start of the game. The rest of the chain won’t be available until a later age.
 - Early in the game, it is easy to be profitable by serving a large number of relatively independent industries.
 - In later stages, effectively managing the interconnected chains is important.
-
-## Scenario
-An epic hand-crafted scenario is also provided alongside AIRS.
 
 
 ## Future Plans
