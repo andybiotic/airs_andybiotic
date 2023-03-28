@@ -13,6 +13,8 @@ industry = IndustryPrimaryPort(
     nearby_station_name="string(STR_STATION_GOODS_YARD)",
     fund_cost_multiplier="8",
     special_flags=["IND_FLAG_ONLY_IN_TOWNS"],
+    life_type="IND_LIFE_TYPE_BLACK_HOLE",
+    
 )
 
 industry.enable_in_economy(

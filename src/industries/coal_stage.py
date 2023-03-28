@@ -12,7 +12,8 @@ industry = IndustryTertiary(
     name="string(STR_IND_COAL_STAGE)",
     nearby_station_name="string(STR_STATION_INDUSTRY_HARBOUR_3)",
     fund_cost_multiplier="152",
-    override_default_construction_states=True,
+    override_default_construction_states=True,    
+    life_type="IND_LIFE_TYPE_BLACK_HOLE",
 )
 
 industry.enable_in_economy(

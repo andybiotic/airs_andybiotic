@@ -1,4 +1,4 @@
-STR_GRF_NAME                                                    :AIRS - Age of Industry Replacement Set - v1.2.0
+STR_GRF_NAME                                                    :AIRS - Age of Industry Replacement Set - v1.2.1
 STR_GRF_DOCS_URL                                                :${utils.get_docs_url()}
 <!--! empty string is not translated :) -->
 STR_EMPTY                                                       :
