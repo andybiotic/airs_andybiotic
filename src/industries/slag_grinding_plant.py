@@ -36,7 +36,6 @@ industry.enable_in_economy(
         ("BDMT", 4),
     ],
     fund_cost_multiplier="11",
-    intro_year=1895,
 )
 
 industry.enable_in_economy(
@@ -48,6 +47,7 @@ industry.enable_in_economy(
         ("BDMT", 6),
     ],
     fund_cost_multiplier="11",
+    intro_year=1895,
 )
 
 industry.add_tile(
