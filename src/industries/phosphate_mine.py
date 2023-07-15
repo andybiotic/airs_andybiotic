@@ -3,7 +3,7 @@ from industry import IndustryPrimaryExtractive, TileLocationChecks
 industry = IndustryPrimaryExtractive(
     id="phosphate_mine",
     prod_cargo_types_with_multipliers=[],
-    prob_in_game="4",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="7",
     map_colour="45",
     # allow longer distance on clustering than usual, and more clusters, as industry is hard to locate

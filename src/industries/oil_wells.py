@@ -5,7 +5,7 @@ industry = IndustryPrimaryExtractive(
     prod_cargo_types_with_multipliers=[
         ("OIL_", 28),
     ],
-    prob_in_game="6",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="8",
     map_colour="72",
     prospect_chance="0.75",

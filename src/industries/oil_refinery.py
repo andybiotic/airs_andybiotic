@@ -10,7 +10,7 @@ industry = IndustrySecondary(
         ("RFPR", 3),
 
     ],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="5",
     map_colour="191",
     special_flags=["IND_FLAG_MILITARY_AIRPLANE_CAN_EXPLODE"],

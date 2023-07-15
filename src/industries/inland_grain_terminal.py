@@ -3,7 +3,7 @@ from industry import IndustryPrimaryOrganic, TileLocationChecks
 industry = IndustryPrimaryOrganic(
     id="inland_grain_terminal",
     prod_cargo_types_with_multipliers=[("GRAI", 16)],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="6",
     map_colour="69",
     

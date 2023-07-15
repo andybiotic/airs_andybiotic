@@ -3,7 +3,7 @@ from industry import IndustryPrimaryNoSupplies, TileLocationChecks
 industry = IndustryPrimaryNoSupplies(
     id="farm",
     prod_cargo_types_with_multipliers=[],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="15",
     map_colour="85",
     special_flags=[

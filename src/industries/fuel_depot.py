@@ -5,7 +5,7 @@ industry = IndustryTertiary(
     accept_cargo_types=[
         "PETR",
     ],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="6",
     map_colour="186",
     special_flags=["IND_FLAG_MILITARY_AIRPLANE_CAN_EXPLODE"],

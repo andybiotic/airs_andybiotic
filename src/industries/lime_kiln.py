@@ -8,7 +8,7 @@ industry = IndustrySecondary(
         ("QLME", 6),
         ("FMSP", 2),
     ],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="5",
     map_colour="119",
     location_checks=dict(

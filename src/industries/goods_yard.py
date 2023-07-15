@@ -6,7 +6,7 @@ industry = IndustryPrimaryPort(
     prod_cargo_types_with_multipliers=[
         ("FOOD", 6)
     ],
-    prob_in_game="0",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="8",
     map_colour="143",
     name="string(STR_IND_GOODS_YARD)",

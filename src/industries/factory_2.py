@@ -13,7 +13,7 @@ industry = IndustrySecondary(
     prod_cargo_types_with_output_ratios=[
         ("GOOD", 6),
     ],
-    prob_in_game="7",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="8",
     map_colour="170",
     name="string(STR_IND_FACTORY_2)",

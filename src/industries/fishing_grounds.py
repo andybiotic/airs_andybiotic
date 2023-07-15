@@ -6,7 +6,7 @@ industry = IndustryPrimaryNoSupplies(
     prod_cargo_types_with_multipliers=[
         ("FISH", 8),
     ],
-    prob_in_game="14",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="14",
     substitute="5",
     map_colour="160",

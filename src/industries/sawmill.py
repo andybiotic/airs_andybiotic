@@ -8,7 +8,7 @@ industry = IndustrySecondary(
     prod_cargo_types_with_output_ratios=[
         ("WDPR", 8),
     ],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="5",
     map_colour="194",
     location_checks=dict(

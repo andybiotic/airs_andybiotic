@@ -8,8 +8,8 @@ industry = IndustrySecondary(
     prod_cargo_types_with_output_ratios=[
         ("FOOD", 8),
     ],
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="10",
-    prob_in_game="10",
     map_colour="64",
     name="string(STR_IND_FLOUR_MILL)",
     nearby_station_name="string(STR_STATION_MILL)",

@@ -6,7 +6,7 @@ industry = IndustryPrimaryNoSupplies(
     prod_cargo_types_with_multipliers=[
         ("FOOD", 8),
     ],
-    prob_in_game="2",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="4",
     map_colour="191",
     # no industry location checks for brewery, by design

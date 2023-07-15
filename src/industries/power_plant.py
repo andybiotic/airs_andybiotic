@@ -4,7 +4,7 @@ industry = IndustryTertiary(
     id="power_plant",
     accept_cargo_types=[],
     prod_cargo_types=[],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="5",
     prod_multiplier="[0, 0]",
     map_colour="168",
@@ -26,6 +26,7 @@ industry.enable_in_economy(
     "BLACK_GOLD_AND_FIRE",
     accept_cargo_types=["COAL"],
     fund_cost_multiplier="14",
+    intro_year=1895,
 )
 
 industry.add_tile(
