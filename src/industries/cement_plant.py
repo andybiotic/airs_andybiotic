@@ -5,7 +5,7 @@ industry = IndustrySecondary(
     accept_cargos_with_input_ratios=[],
     combined_cargos_boost_prod=True,
     prod_cargo_types_with_output_ratios=[],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="5",
     map_colour="38",
     # the keystones are quite specific to IAHC, and location checks aren't economy specific, so this might need adjusted if other economies gain cement plant

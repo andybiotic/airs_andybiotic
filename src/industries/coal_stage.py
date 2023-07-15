@@ -3,7 +3,7 @@ from industry import IndustryTertiary, TileLocationChecks
 industry = IndustryTertiary(
     id="coal_stage",
     accept_cargo_types=["COAL"],
-    prob_in_game="2",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="6",
     map_colour="61",
     special_flags=["IND_FLAG_BUILT_ON_WATER"],
@@ -12,7 +12,8 @@ industry = IndustryTertiary(
     name="string(STR_IND_COAL_STAGE)",
     nearby_station_name="string(STR_STATION_INDUSTRY_HARBOUR_3)",
     fund_cost_multiplier="152",
-    override_default_construction_states=True,
+    override_default_construction_states=True,    
+    life_type="IND_LIFE_TYPE_BLACK_HOLE",
 )
 
 industry.enable_in_economy(

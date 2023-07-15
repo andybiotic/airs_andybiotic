@@ -3,7 +3,7 @@ from industry import IndustryPrimaryOrganic, TileLocationChecks
 industry = IndustryPrimaryOrganic(
     id="arable_farm",
     prod_cargo_types_with_multipliers=[],
-    prob_in_game="4",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="11",
     map_colour="209",
     special_flags=[

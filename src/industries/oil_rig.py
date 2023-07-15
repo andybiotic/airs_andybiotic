@@ -6,7 +6,7 @@ industry = IndustryPrimaryExtractive(
         ("OIL_", 29),
         ("PASS", 4),
     ],
-    prob_in_game="6",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="6",
     substitute="5",
     map_colour="151",

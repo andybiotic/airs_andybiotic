@@ -11,7 +11,7 @@ industry = IndustrySecondary(
     prod_cargo_types_with_output_ratios=[
         ("NH3_", 6),
     ],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="4",
     map_colour="173",
     name="string(STR_IND_AMMONIA_PLANT)",

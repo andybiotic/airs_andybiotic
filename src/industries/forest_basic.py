@@ -5,7 +5,7 @@ industry = IndustryPrimaryNoSupplies(
     prod_cargo_types_with_multipliers=[
         ("WOOD", 14),
     ],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="10",
     map_colour="83",
     prospect_chance="0.75",

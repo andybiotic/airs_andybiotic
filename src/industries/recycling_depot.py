@@ -5,7 +5,7 @@ industry = IndustryTownProducerPopulationDependent(
     prod_cargo_types_with_multipliers=[
         ("RCYC", 16),
     ],  # prod dependent on town popn
-    prob_in_game="8",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="8",
     map_colour="15",
     life_type="IND_LIFE_TYPE_EXTRACTIVE",

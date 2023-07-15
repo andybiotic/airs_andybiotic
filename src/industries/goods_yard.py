@@ -6,13 +6,15 @@ industry = IndustryPrimaryPort(
     prod_cargo_types_with_multipliers=[
         ("FOOD", 6)
     ],
-    prob_in_game="0",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="8",
     map_colour="143",
     name="string(STR_IND_GOODS_YARD)",
     nearby_station_name="string(STR_STATION_GOODS_YARD)",
     fund_cost_multiplier="8",
     special_flags=["IND_FLAG_ONLY_IN_TOWNS"],
+    life_type="IND_LIFE_TYPE_BLACK_HOLE",
+    
 )
 
 industry.enable_in_economy(

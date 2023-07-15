@@ -10,7 +10,7 @@ industry = IndustryTertiary(
     prod_cargo_types_with_multipliers=[
         ("PASS", 17),
     ],
-    prob_in_game="15",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="10",
     map_colour="189",
     life_type="IND_LIFE_TYPE_BLACK_HOLE",

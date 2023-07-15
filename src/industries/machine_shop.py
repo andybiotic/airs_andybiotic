@@ -10,7 +10,7 @@ industry = IndustrySecondary(
         ("FMSP", 4),
         ("ENSP", 4),
     ],
-    prob_in_game="3",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="5",
     map_colour="49",
     name="string(STR_IND_MACHINE_SHOP)",

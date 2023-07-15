@@ -4,7 +4,7 @@ industry = IndustryPrimaryPort(
     id="inland_container_terminal",
     accept_cargo_types=[],
     prod_cargo_types_with_multipliers=[],
-    prob_in_game="2",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="8",
     map_colour="43",
     location_checks=dict(same_type_distance=16),

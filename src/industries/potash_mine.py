@@ -5,7 +5,7 @@ industry = IndustryPrimaryExtractive(
     prod_cargo_types_with_multipliers=[
         ("POTA", 20),
     ],
-    prob_in_game="4",
+    prob_in_game="0",  # do not build during gameplay
     prob_map_gen="7",
     map_colour="196",
     location_checks=dict(require_cluster=[70, 3]),
