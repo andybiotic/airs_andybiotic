@@ -8,7 +8,7 @@ industry = IndustryTertiary(
         "BEER",
     ],
     prod_cargo_types=[],
-    prob_in_game="3",
+    prob_in_game="2",
     prob_map_gen="12",
     prod_multiplier="[0, 0]",
     map_colour="168",
