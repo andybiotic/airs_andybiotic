@@ -23,6 +23,12 @@ industry.enable_in_economy(
     intro_year=2000,
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    fund_cost_multiplier="16",
+    intro_year=2000,
+)
+
 industry.add_tile(
     id="recycling_depot_tile_1",
     location_checks=TileLocationChecks(

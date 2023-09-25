@@ -154,11 +154,9 @@ from cargos import fertiliser
 
 fertiliser.cargo.register()
 
-"""
 from cargos import fish
 
 fish.cargo.register()
-"""
 
 from cargos import food
 

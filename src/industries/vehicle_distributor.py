@@ -32,6 +32,13 @@ industry.enable_in_economy(
     intro_year=1895,
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    fund_cost_multiplier="7",
+    prob_map_gen="5",
+    intro_year=1895,
+)
+
 industry.add_tile(
     id="vehicle_distributor_tile_1",
     location_checks=TileLocationChecks(

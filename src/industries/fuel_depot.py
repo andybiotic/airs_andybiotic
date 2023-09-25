@@ -23,6 +23,10 @@ industry.enable_in_economy(
     "BLACK_GOLD_AND_FIRE",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+)
+
 industry.add_tile(
     id="fuel_depot_tile_1",
     location_checks=TileLocationChecks(

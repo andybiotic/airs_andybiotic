@@ -28,6 +28,14 @@ industry.enable_in_economy(
     ],
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    fund_cost_multiplier="45",
+    prod_cargo_types_with_multipliers=[
+    ("IORE", 12),
+    ],
+)
+
 industry.add_tile(
     id="iron_ore_mine_tile_1",
     animation_length=81,

@@ -29,6 +29,13 @@ industry.enable_in_economy(
     intro_year=1895,
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargo_types=["COAL"],
+    fund_cost_multiplier="14",
+    intro_year=1895,
+)
+
 industry.add_tile(
     id="power_plant_tile_1",
     animation_length=7,

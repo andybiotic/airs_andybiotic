@@ -25,6 +25,11 @@ industry.enable_in_economy(
     fund_cost_multiplier="30",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    fund_cost_multiplier="30",
+)
+
 industry.add_tile(
     id="forest_basic_tile_1",
     foundations="return CB_RESULT_NO_FOUNDATIONS",

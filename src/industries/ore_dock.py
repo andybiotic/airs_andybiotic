@@ -25,6 +25,15 @@ industry.enable_in_economy(
     fund_cost_multiplier="12",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prod_cargo_types_with_multipliers=[
+        ("IORE", 22)
+    ],
+    intro_year=1895,
+    fund_cost_multiplier="12",
+)
+
 industry.add_tile(
     id="ore_dock_tile_1",
     land_shape_flags="bitmask(LSF_ONLY_ON_FLAT_LAND)",

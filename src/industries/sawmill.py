@@ -31,6 +31,11 @@ industry.enable_in_economy(
     fund_cost_multiplier="18",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    fund_cost_multiplier="18",
+)
+
 industry.add_tile(
     id="sawmill_tile_1",
     location_checks=TileLocationChecks(disallow_industry_adjacent=True),

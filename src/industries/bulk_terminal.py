@@ -26,6 +26,17 @@ industry.enable_in_economy(
     fund_cost_multiplier="12",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargo_types=[],
+    prod_cargo_types_with_multipliers=[
+        ("AORE", 22),
+        ("OIL_", 12),
+    ],
+    intro_year=1930,
+    fund_cost_multiplier="12",
+)
+
 industry.add_tile(
     id="bulk_terminal_tile_1",
     land_shape_flags="bitmask(LSF_ONLY_ON_FLAT_LAND)",

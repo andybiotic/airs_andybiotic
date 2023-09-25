@@ -43,6 +43,17 @@ industry.enable_in_economy(
     fund_cost_multiplier="15",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargos_with_input_ratios=[
+        ("COKE", 8),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("GOOD", 5),
+    ],
+    fund_cost_multiplier="15",
+)
+
 industry.add_tile(
     id="factory_1_tile_1",
     animation_length=47,

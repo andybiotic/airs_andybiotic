@@ -7,7 +7,7 @@ industry = IndustryTertiary(
     ],
     prod_cargo_types=[],
     prob_in_game="0",  # do not build during gameplay
-    prob_map_gen="18",
+    prob_map_gen="8",
     prod_multiplier="[0, 0]",
     map_colour="121",
     life_type="IND_LIFE_TYPE_BLACK_HOLE",
@@ -30,6 +30,15 @@ industry.enable_in_economy(
 industry.enable_in_economy(
     "BLACK_GOLD_AND_FIRE",
     accept_cargo_types=[
+        "BDMT",
+    ],
+    fund_cost_multiplier="4",
+)
+
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargo_types=[
+        "CMNT",
         "BDMT",
     ],
     fund_cost_multiplier="4",

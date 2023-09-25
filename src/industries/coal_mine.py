@@ -26,7 +26,13 @@ industry.enable_in_economy(
     prob_map_gen="16",
     fund_cost_multiplier="40",
     prod_cargo_types_with_multipliers=[("COAL", 12)],
+)
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prob_map_gen="12",
+    fund_cost_multiplier="40",
+    prod_cargo_types_with_multipliers=[("COAL", 12)],
 )
 
 # industry.economy_variations['IN_A_HOT_COUNTRY'].enabled = True

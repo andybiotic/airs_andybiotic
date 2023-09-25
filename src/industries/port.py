@@ -36,6 +36,16 @@ industry.enable_in_economy(
     fund_cost_multiplier="15",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prod_cargo_types_with_multipliers=[
+        ("GOOD", 18)
+    ],
+    accept_cargo_types=["GOOD"],
+    intro_year=1965,
+    fund_cost_multiplier="15",
+)
+
 industry.add_tile(
     id="port_tile_1",
     land_shape_flags="bitmask(LSF_ONLY_ON_FLAT_LAND)",

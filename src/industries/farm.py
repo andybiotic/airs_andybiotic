@@ -30,6 +30,10 @@ industry.enable_in_economy(
     "BLACK_GOLD_AND_FIRE",
     prod_cargo_types_with_multipliers=[],
 )
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prod_cargo_types_with_multipliers=[],
+)
 
 industry.add_tile(
     id="farm_tile_1",
