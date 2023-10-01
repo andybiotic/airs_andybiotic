@@ -38,6 +38,14 @@ industry.enable_in_economy(
     ],
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargo_types=[
+        "FOOD",
+        "GOOD",
+    ],
+)
+
 industry.add_tile(
     id="general_store_tile_1",
     location_checks=TileLocationChecks(require_road_adjacent=True),

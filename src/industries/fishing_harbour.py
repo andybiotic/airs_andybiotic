@@ -9,13 +9,13 @@ industry = IndustrySecondary(
     prod_cargo_types_with_output_ratios=[
         ("FOOD", 8),
     ],
-    prob_in_game="10",
-    prob_map_gen="10",
+    prob_in_game="0",
+    prob_map_gen="8",
     map_colour="169",
     special_flags=["IND_FLAG_BUILT_ON_WATER"],
     location_checks=dict(
         near_at_least_one_of_these_keystone_industries=[
-            ["fishing_grounds", "fish_farm"],
+            ["fishing_grounds"],
             72,
         ]
     ),
@@ -24,6 +24,10 @@ industry = IndustrySecondary(
     fund_cost_multiplier="150",
     override_default_construction_states=True,
     pollution_and_squalor_factor=1,
+)
+
+industry.enable_in_economy(
+    "TRADE_AND_WAVES"
 )
 
 industry.add_tile(

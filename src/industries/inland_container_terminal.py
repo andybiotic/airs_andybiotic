@@ -35,6 +35,17 @@ industry.enable_in_economy(
     
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prod_cargo_types_with_multipliers=[
+        ("GOOD", 14)
+    ],
+    accept_cargo_types=["GOOD"],    
+    fund_cost_multiplier="18",
+    intro_year=1965,
+    
+)
+
 industry.add_tile(
     id="inland_container_terminal_tile_1",
     location_checks=TileLocationChecks(

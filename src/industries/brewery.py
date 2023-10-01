@@ -25,6 +25,15 @@ industry.enable_in_economy(
     ],
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prob_map_gen="12",
+    fund_cost_multiplier="18",
+    prod_cargo_types_with_multipliers=[
+        ("FOOD", 8),
+    ],
+)
+
 industry.add_tile(
     id="brewery_tile_1",
     animation_length=6,

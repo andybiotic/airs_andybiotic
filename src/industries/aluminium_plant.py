@@ -28,6 +28,15 @@ industry.enable_in_economy(
     fund_cost_multiplier="18",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargos_with_input_ratios=[
+        ("AORE", 10),
+    ],
+    intro_year=1930,
+    fund_cost_multiplier="18",
+)
+
 # industry.enable_in_economy("MILD_MILD_WEST",)
 
 industry.add_tile(

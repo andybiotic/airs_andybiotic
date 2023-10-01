@@ -35,6 +35,21 @@ industry.enable_in_economy(
     intro_year=1895,
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargos_with_input_ratios=[
+        ("STEL", 4),
+        ("COKE", 6),
+        ("RFPR", 2),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("ENSP", 8),
+    ],
+    prob_map_gen="4",
+    fund_cost_multiplier="12",
+    intro_year=1895,
+)
+
 industry.add_tile(
     id="machine_shop_tile_1",
     animation_length=71,

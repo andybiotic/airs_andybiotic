@@ -4,7 +4,7 @@ industry = IndustryPrimaryExtractive(
     id="oil_rig",
     prod_cargo_types_with_multipliers=[
         ("OIL_", 29),
-        ("PASS", 4),
+        ("PASS", 2),
     ],
     prob_in_game="0",  # do not build during gameplay
     prob_map_gen="6",
@@ -22,6 +22,12 @@ industry = IndustryPrimaryExtractive(
     override="5",
     intro_year=1967,
     pollution_and_squalor_factor=1,
+)
+
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    intro_year=1965,
+    fund_cost_multiplier="40",
 )
 
 industry.add_tile(

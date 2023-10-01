@@ -34,6 +34,17 @@ industry.enable_in_economy(
     fund_cost_multiplier="24",
 ),
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargos_with_input_ratios=[
+        ("SLAG", 2),
+        ("GRVL", 4),
+    ],
+    prod_cargo_types_with_output_ratios=[("CMNT", 8)],
+    intro_year=1965,
+    fund_cost_multiplier="24",
+),
+
 # ['IN_A_HOT_COUNTRY'].accept_cargos_with_input_ratios = [('COAL', 2), ('CLAY', 2), ('GRVL', 4)]
 # ['IN_A_HOT_COUNTRY'].prod_cargo_types_with_output_ratios = [('CMNT', 8)]
 

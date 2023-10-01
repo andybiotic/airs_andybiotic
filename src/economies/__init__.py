@@ -6,6 +6,8 @@ registered_economies = []
 
 from economies import plains_trains_and_steel
 from economies import black_gold_and_fire
+from economies import trade_and_waves
 
 plains_trains_and_steel.economy.register()
 black_gold_and_fire.economy.register()
+trade_and_waves.economy.register()

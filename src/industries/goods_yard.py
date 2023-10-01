@@ -21,6 +21,10 @@ industry.enable_in_economy(
     "BLACK_GOLD_AND_FIRE",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+)
+
 industry.add_tile(
     id="goods_yard_tile_1",
     animation_length=71,

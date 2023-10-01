@@ -44,6 +44,18 @@ industry.enable_in_economy(
     fund_cost_multiplier="18",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    accept_cargos_with_input_ratios=[
+        ("COKE", 2),
+        ("IRON", 4),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("GOOD", 7),
+    ],
+    fund_cost_multiplier="18",
+)
+
 
 industry.add_tile(
     id="metal_workshop_tile_1",

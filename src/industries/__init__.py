@@ -72,11 +72,11 @@ from industries import cement_plant
 
 cement_plant.industry.register()
 
-"""
 from industries import chemical_plant
 
 chemical_plant.industry.register()
 
+"""
 from industries import chlor_alkali_plant
 
 chlor_alkali_plant.industry.register()
@@ -197,6 +197,7 @@ food_processor.industry.register()
 from industries import fish_farm
 
 fish_farm.industry.register()
+"""
 
 from industries import fishing_grounds
 
@@ -205,7 +206,6 @@ fishing_grounds.industry.register()
 from industries import fishing_harbour
 
 fishing_harbour.industry.register()
-"""
 
 from industries import forest
 
@@ -327,11 +327,9 @@ from industries import oil_wells
 
 oil_wells.industry.register()
 
-"""
 from industries import oil_rig
 
 oil_rig.industry.register()
-"""
 
 from industries import ore_dock
 

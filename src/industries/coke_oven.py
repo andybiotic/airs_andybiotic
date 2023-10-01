@@ -36,6 +36,14 @@ industry.enable_in_economy(
     fund_cost_multiplier="18",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prod_cargo_types_with_output_ratios=[
+        ("COKE", 10),
+    ],
+    fund_cost_multiplier="18",
+)
+
 industry.add_tile(
     id="coke_oven_tile_1",
     animation_length=7,

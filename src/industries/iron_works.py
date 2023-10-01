@@ -28,6 +28,14 @@ industry.enable_in_economy(
     fund_cost_multiplier="18",
 )
 
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
+    prod_cargo_types_with_output_ratios=[
+        ("IRON", 6),
+    ],
+    fund_cost_multiplier="18",
+)
+
 # not animated tiles
 industry.add_tile(
     id="iron_works_tile_1",

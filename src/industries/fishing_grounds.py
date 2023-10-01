@@ -7,7 +7,7 @@ industry = IndustryPrimaryNoSupplies(
         ("FISH", 8),
     ],
     prob_in_game="0",  # do not build during gameplay
-    prob_map_gen="14",
+    prob_map_gen="10",
     substitute="5",
     map_colour="160",
     life_type="IND_LIFE_TYPE_EXTRACTIVE",
@@ -23,6 +23,10 @@ industry = IndustryPrimaryNoSupplies(
     name="string(STR_IND_FISHING_GROUND)",
     nearby_station_name="string(STR_STATION_SHOALS)",
     fund_cost_multiplier="88",
+)
+
+industry.enable_in_economy(
+    "TRADE_AND_WAVES",
 )
 
 industry.add_tile(
