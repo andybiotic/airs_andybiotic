@@ -1,7 +1,7 @@
 ##grflangid 0x01
 ##plural 0
 
-STR_GRF_DESC                                                                    :{ORANGE}Age of Industry Replacement Set (AIRS). {}{BLACK}Brought to you by andythenorth, FooBar, planetmaker, Terkhen and Yexo, with help from many others. Modded by Andysine. {SILVER}See readme for more information, including how to use FIRS. {BLACK}License: GPL v2.
+STR_GRF_DESC                                                                    :{ORANGE}Age of Industry Replacement Set (AIRS). {}{BLACK}A FIRS fork by Andysine. Originally by andythenorth, FooBar, planetmaker, Terkhen and Yexo, with help from many others. {SILVER}See readme for more information, including how to use FIRS. {BLACK}License: GPL v2.
 
 STR_PARAM_DESC_COAST_DISTANCE_MARINE_INDUSTRY                                   :Maximum distance of fishing grounds, oil rigs and dredging sites from the coast in tiles.
 STR_PARAM_DESC_ECONOMIES                                                        :AIRS currently provides three themed economies, each styled on significant histotic industial areas. {}{}{SILVER}Plains, Trains and Steel {BLACK}is based on the praries and mountains of Western Canada. The predominent industries are based around Grain and Steel.{}{SILVER}Black Gold and Fire {BLACK}is inspired by the valleys of South Wales. Mining and Iron production form the basis of this historically important region.{}{SILVER}Trade and Waves {BLACK}is an general economy similar to the countries of northern Europe.
