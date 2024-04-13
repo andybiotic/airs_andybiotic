@@ -5,7 +5,7 @@ industry = IndustrySecondary(
     accept_cargos_with_input_ratios=[],
     prod_cargo_types_with_output_ratios=[],
     combined_cargos_boost_prod=True,
-    prob_in_game="3",
+    prob_in_game="0",
     prob_map_gen="5",
     map_colour="191",
     # it's rare to force co-location of secondaries, but this one is near port by design
