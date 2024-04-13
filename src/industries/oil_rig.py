@@ -27,7 +27,7 @@ industry = IndustryPrimaryExtractive(
 industry.enable_in_economy(
     "TRADE_AND_WAVES",
     intro_year=1965,
-    fund_cost_multiplier="40",
+    fund_cost_multiplier="19",
 )
 
 industry.add_tile(

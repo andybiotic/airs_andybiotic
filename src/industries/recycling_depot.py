@@ -19,13 +19,13 @@ industry = IndustryTownProducerPopulationDependent(
 
 industry.enable_in_economy(
     "BLACK_GOLD_AND_FIRE",
-    fund_cost_multiplier="16",
+    fund_cost_multiplier="12",
     intro_year=2000,
 )
 
 industry.enable_in_economy(
     "TRADE_AND_WAVES",
-    fund_cost_multiplier="16",
+    fund_cost_multiplier="12",
     intro_year=2000,
 )
 
