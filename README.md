@@ -13,56 +13,55 @@ Secondary Industry creation are important parts of AIRS. Costs for funding these
 - Boost primary industries later on with supply feedback loops.
 - Development of the economy occurs in distinct stages.
 - New industries including Container Port, Grain Elevator, Inland Container Terminal and Inland Grain Terminal.
+- Farms are eyecandy only. Farms do not produce or accept cargo.
 
-![title_image_pts](https://user-images.githubusercontent.com/49839841/202897500-48f51a00-1889-4e83-b349-daea5d78bc67.png)
+---
 
-This expansive economy is loosely based on Northern USA / Southern Canada. Plains, Trains and Steel includes industries spanning the fertile prairies, through the mineral rich mountains to the important coastal trading ports.
+AIRS offers 3 economies, each based on a geographic region. 
+
+![Banner Image New](https://github.com/andybiotic/airs_andysine/assets/49839841/a3628790-884f-4b8d-97f4-37dbc10a9ca2)
+
+
+
+## Plains, Trains and Steel
+Based on the praries of Canada and Northern USA. Grain farming and steelmaking dominate this economy.
+
+## Black Gold and Fire
+Inspired by the coal-rich region of South Wales, United Kingdom. 
+
+## Trade and Waves
+A generalised econonmy based on North West Europe.
+
+---
+
+_New industries and cargo flows occur at specific times. Please note, some industries have different introduction dates and cargo requirements in different economies._
+
+<img width="890" alt="AIRS Industries" src="https://github.com/andybiotic/airs_andysine/assets/49839841/c50ec818-73bd-46a1-b989-1e438b0ebe78">
+
 
 ### 1860 - Industrial Age
 With the start of the Industrial Age in 1860, a large number of smaller industries are ready and waiting to be serviced. At this time, industry chains are basic and production quantities will be low. Servicing as many industries as possible here is the key to success.
 
 ### 1895 - Golden Age 
-New metallurgy production processes allow the manufacture of Carbon Steel and associated products, culminating in the assembly of Vehicles. Food production increases significantly with the mass-synthesis of fertilisers.
+New metallurgy production processes allow the production of higher quality steel and associated products, culminating in the assembly of Vehicles.
 
 ### 1930 - Boom Age
-Oil dominates with the mass production of petroleum fuels and chemicals. New technologies spur huge increases in primary mining and food industries through the Engineering and Farm Supply feedback loop.
+Increased food production, fuel oils and other products make for some sophisticate supply chains.
 
 ### 1965 - Modern Age
-Intermodal Goods are produced at multiple industries and accepted at even more. This dramatic shift revolutionises cargo transit and large-scale Cement production adds a new cargo chain.
+Intermodal Goods are produced at multiple industries and accepted at even more. This dramatic shift revolutionises cargo transit and networks will be required to scale effectively. 
 
-![title_image_bgf](https://user-images.githubusercontent.com/49839841/226009916-211fa3ce-9f82-4029-97e5-7b1f6e29aa53.png)
+### 2000 - Information Age
+Recycled materials offer new cargo flows.
 
-An economy based on the coal-rich valleys of South Wales. 
-
-### 1860 - Industrial Age
-Pig iron can be produced from coal and ore in a simple metal chain. Food is collected at Goods Yards in small market towns. The appetite for coal overseas is growing, with export from the many coastal Coal Stages.
-
-### 1895 - Golden Age 
-To satisfy the increasing demand from new, more complex Steel Mills, Iron Ore can now be imported at the Ore Landing. Advanced metal working is undertaken at the Machine Shop, Wire and Section Mill and Sheet and Pipe Mill. Vehicles are produced at the Assembly Plant.
-
-### 1930 - Boom Age
-Petroleum fuels can now be imported and the engineering supply feedback loop means ever greater quantities of coal can be extracted.
-
-### 1965 - Modern Age
-Container Terminals mean intermodal goods can now be transported more quickly and in ever greater quantities.
-
-### 2000 - Consumer Age
-Recyclables can now be transported from urban centres to specialised plants.
-
-<img width="444" alt="AIRS_industries" src="https://user-images.githubusercontent.com/49839841/226025812-67fd8efc-7774-4e14-9097-913af0c71fd7.png">
+---
 
 ## Gameplay tips:
 - All primary industries should be present at start of the game. The rest of the chain won’t be available until a later age.
 - Early in the game, it is easy to be profitable by serving a large number of relatively independent industries.
 - In later stages, effectively managing the interconnected chains is important.
 
-
-## Future Plans
-- More updates to the new industry graphics
-- Tweaks and enhancements to the economy
-- Extra economies (long-term)
-- Maybe a North American Building set? (long-term)
-
+---
 
 ## FAQs
 
@@ -73,7 +72,7 @@ Recyclables can now be transported from urban centres to specialised plants.
 > This is intentional. In the first age, you may need to connect many cottage industries to be profitable. In the later ages, production can be boosted with some new cargoes. You might then find it advantageous to rationalise your network and concentrate on a few production centres for maximum efficiency
 > 
 > **_Which vehicle sets can I use?_**
-> Many newer vehicle sets are compatible. If it supports FIRS cargos, it will work. I recommend NARS2.
+> Many newer vehicle sets are compatible. If it supports FIRS cargos, it will work. I recommend Iron Horse and NARS2.
 > 
 > _**Is there anyone you would like to thank?**_
 > Yes. AndyTheNorth and everyone who worked on FIRS. Thank you for their hard work and excellent documentation, as this project would not be possible without these.
